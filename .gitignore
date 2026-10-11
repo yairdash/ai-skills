@@ -1,0 +1,13 @@
+node_modules/
+.validation/
+.cache/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.DS_Store
+Thumbs.db
+sources_raw/
+sources_unzipped/
+review/
