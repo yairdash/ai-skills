@@ -35,6 +35,12 @@
 | [slideshow](https://github.com/heygen-com/hyperframes/tree/b211fc7cb845c6838cbdb1860506c2fda2804787/skills/slideshow) | מצגת אינטראקטיבית במנוע HyperFrames | מקור חיצוני — גרסה מאומתת | HyperFrames, GSAP ו־hyperframes-core | סקירת תוכן בלבד |
 | [video-edit](https://github.com/calesthio/OpenMontage/tree/9327439db69021ab4b0e2776729bf3b58fdb5a87/.agents/skills/video-edit) | חיתוך וחיבור וידאו, שינוי גודל, אודיו ודחיסה | מקור חיצוני — גרסה מאומתת | FFmpeg ו־ffprobe; יש להתאים הוראות התקנה ל־Windows | סקירת תוכן בלבד |
 | [video-understand](https://github.com/calesthio/OpenMontage/tree/9327439db69021ab4b0e2776729bf3b58fdb5a87/.agents/skills/video-understand) | חילוץ פריימים וניתוח חומר גלם עם אפשרות לתמלול מקומי | מקור חיצוני — גרסה מאומתת | FFmpeg, Python וקובצי scripts; Whisper לתמלול וכלי ניתוח תמונה אצל הסוכן | סקירת תוכן בלבד |
+| [ffmpeg](https://github.com/calesthio/OpenMontage/tree/9327439db69021ab4b0e2776729bf3b58fdb5a87/.agents/skills/ffmpeg) | מתכוני המרה, שינוי גודל, דחיסה והכנת קובצי מדיה | מקור חיצוני — גרסה מאומתת | FFmpeg ו־ffprobe; חפיפה חלקית ל־video-edit | סקירת תוכן בלבד |
+| [talking-head-recut](https://github.com/heygen-com/hyperframes/tree/b211fc7cb845c6838cbdb1860506c2fda2804787/skills/talking-head-recut) | כותרות וכרטיסי מידע מסונכרנים על וידאו דיבור | מקור חיצוני — גרסה מאומתת | HyperFrames, תמלול ורינדור; הווידאו ממשיך במלואו, ללא חיתוך אוטומטי | סקירת תוכן בלבד |
+| [embedded-captions](https://github.com/heygen-com/hyperframes/tree/b211fc7cb845c6838cbdb1860506c2fda2804787/skills/embedded-captions) | כתוביות מעוצבות ושילובן מאחורי המצולם | מקור חיצוני — גרסה מאומתת | HyperFrames, Bash, FFmpeg, תמלול והפרדת רקע; דרושה התאמת Windows | סקירת תוכן בלבד |
+| [faceless-explainer](https://github.com/heygen-com/hyperframes/tree/b211fc7cb845c6838cbdb1860506c2fda2804787/skills/faceless-explainer) | הפקת סרטון הסבר מטקסט ללא מצולם | מקור חיצוני — גרסה מאומתת | חבילת HyperFrames עם סקילס ליבה, מדיה, רינדור ותתי־סוכנים; לא להתקין לבדו | סקירת תוכן בלבד |
+| [character-rigging](https://github.com/calesthio/OpenMontage/tree/9327439db69021ab4b0e2776729bf3b58fdb5a87/.agents/skills/character-rigging) | הכנת דמות דו־ממדית עם חלקים, צירים ושכבות | מקור חיצוני — גרסה מאומתת | פורמט rig_plan של OpenMontage, נכסי דמות ומנוע רינדור; משלים svg-character-animation | סקירת תוכן בלבד |
+| [svg-character-animation](https://github.com/calesthio/OpenMontage/tree/9327439db69021ab4b0e2776729bf3b58fdb5a87/.agents/skills/svg-character-animation) | הנפשת דמויות SVG בתנועות ותזמונים | מקור חיצוני — גרסה מאומתת | GSAP וסביבת דפדפן, Remotion או HyperFrames; משלים character-rigging | סקירת תוכן בלבד |
 
 ## אודיו
 
@@ -43,6 +49,7 @@
 | [music-generation](https://github.com/bytedance/deer-flow/tree/91a88e08e66f886e57fa9eccdc1f4ceb9f870973/skills/public/music-generation) | יצירת מוזיקה ושירים מתיאור ומילים | מקור חיצוני — גרסה מאומתת | Python, MINIMAX_API_KEY; נתיבי Linux וכלי תוצרים של DeerFlow דורשים התאמה | סקירת תוכן בלבד |
 | [speech-to-text](https://github.com/calesthio/OpenMontage/tree/9327439db69021ab4b0e2776729bf3b58fdb5a87/.agents/skills/speech-to-text) | תמלול אודיו עם הפרדת דוברים וחותמות זמן | מקור חיצוני — גרסה מאומתת | ElevenLabs API, ELEVENLABS_API_KEY ותיקיית references; שירות חיצוני | סקירת תוכן בלבד |
 | [sound-effects](https://github.com/calesthio/OpenMontage/tree/9327439db69021ab4b0e2776729bf3b58fdb5a87/.agents/skills/sound-effects) | יצירת אפקטים ואווירות סאונד מתיאור | מקור חיצוני — גרסה מאומתת | ElevenLabs API ו־ELEVENLABS_API_KEY; שירות חיצוני | סקירת תוכן בלבד |
+| [podcast-generation](https://github.com/bytedance/deer-flow/tree/3f7a076972a927b4256df3e3c18b829186dd1355/skills/public/podcast-generation) | המרת תוכן לפודקאסט בשני קולות | מקור חיצוני — גרסה מאומתת | Python, שירות TTS ונתיבי DeerFlow; המקור מציין אנגלית וסינית, עברית לא נבדקה | סקירת תוכן בלבד |
 
 ## מחקר וניתוח
 
@@ -52,6 +59,8 @@
 | [data-analysis](https://github.com/bytedance/deer-flow/tree/91a88e08e66f886e57fa9eccdc1f4ceb9f870973/skills/public/data-analysis) | ניתוח נתונים והצגת תוצאות | מקור חיצוני — גרסה מאומתת | סביבת נתונים, קבצים וספריות Python לפי המשימה | סקירת תוכן בלבד |
 | [academic-paper-review](https://github.com/bytedance/deer-flow/tree/a1383a795377398c1ee6c1bb26a137526cae0567/skills/public/academic-paper-review) | ניתוח מאמר יחיד, שיטות מחקר, מגבלות ומסקנות | מקור חיצוני — גרסה מאומתת | קריאת PDF וגלישה; להתאים נתיבי תוצרים של DeerFlow לסביבה | סקירת תוכן בלבד |
 | [github-deep-research](https://github.com/bytedance/deer-flow/tree/a1383a795377398c1ee6c1bb26a137526cae0567/skills/public/github-deep-research) | מחקר מאגר GitHub לפני אימוץ כלי או סקיל | מקור חיצוני — גרסה מאומתת | Python, scripts/github_api.py, GitHub API וכלי חיפוש וגלישה | סקירת תוכן בלבד |
+| [chart-visualization](https://github.com/bytedance/deer-flow/tree/3f7a076972a927b4256df3e3c18b829186dd1355/skills/public/chart-visualization) | בחירת סוג גרף והפקתו מנתונים | מקור חיצוני — גרסה מאומתת | Node 18+, scripts/generate.js ותיקיית references | סקירת תוכן בלבד |
+| [systematic-literature-review](https://github.com/bytedance/deer-flow/tree/3f7a076972a927b4256df3e3c18b829186dd1355/skills/public/systematic-literature-review) | השוואה וסינתזה של מאמרים רבים בנושא מחקר | מקור חיצוני — גרסה מאומתת | Python, סביבת DeerFlow, נתיבי Linux וכלי task עם subagent_enabled; דרושה התאמה לסוכן אחר | סקירת תוכן בלבד |
 
 ## ניהול תהליכים
 
@@ -61,3 +70,4 @@
 | [skill-creator](https://github.com/bytedance/deer-flow/tree/91a88e08e66f886e57fa9eccdc1f4ceb9f870973/skills/public/skill-creator) | יצירה ושיפור של סקילס | מקור חיצוני — גרסה מאומתת | כלי קבצים וסקריפטים; להשוות לסקיל היוצר שכבר מותקן | סקירת תוכן בלבד |
 | [story-init](https://github.com/danjdewhurst/story-skills/tree/9a54e04b210c0adb9ac9807fcc876eda1d27e9f6/skills/story-init) | הקמת פרויקט סיפור עם בייבל, מעקב סצנות וקובצי עולם | מקור חיצוני — גרסה מאומתת | Story CLI או Node והסקיל story-maintenance; גישה לקבצים | סקירת תוכן בלבד |
 | [story-maintenance](https://github.com/danjdewhurst/story-skills/tree/9a54e04b210c0adb9ac9807fcc876eda1d27e9f6/skills/story-maintenance) | בדיקת רציפות, קישורים, אינדקסים וייבוא כתב יד | מקור חיצוני — גרסה מאומתת | Node ו־scripts/story.js; משלים worldbuilding ו־revision-continuity | סקירת תוכן בלבד |
+| [find-skills](https://github.com/bytedance/deer-flow/tree/3f7a076972a927b4256df3e3c18b829186dd1355/skills/public/find-skills) | איתור סקילס והצעת התקנה ממקורות נוספים | מקור חיצוני — גרסה מאומתת | Skills CLI, Bash וסקריפט התקנה; אין לבצע עדכון גורף ללא בקשת משתמש | סקירת תוכן בלבד |

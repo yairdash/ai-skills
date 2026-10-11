@@ -813,6 +813,276 @@
       "reviewed_at": "2026-10-11",
       "license": "upstream; not redistributed",
       "notes": "קישור לגרסת מקור מאומתת; עדכונים נבדקים לפי בקשה."
+    },
+    {
+      "id": "calesthio-ffmpeg",
+      "name": "ffmpeg",
+      "category": "וידאו ואנימציה",
+      "description_he": "מתכוני המרה, שינוי גודל, דחיסה והכנת קובצי מדיה",
+      "kind": "external",
+      "source": {
+        "repository": "calesthio/OpenMontage",
+        "path": ".agents/skills/ffmpeg",
+        "url": "https://github.com/calesthio/OpenMontage/tree/9327439db69021ab4b0e2776729bf3b58fdb5a87/.agents/skills/ffmpeg",
+        "revision": "9327439db69021ab4b0e2776729bf3b58fdb5a87",
+        "skill_blob_sha": "e2db21ad24174b1fed39f69600b1e9b4824e704a",
+        "status": "current-at-review"
+      },
+      "requirements": [
+        "FFmpeg ו־ffprobe; חפיפה חלקית ל־video-edit"
+      ],
+      "compatibility": {
+        "desktop": "assessed",
+        "web": "untested",
+        "mobile": "untested"
+      },
+      "review_status": "content-reviewed",
+      "reviewed_at": "2026-10-11",
+      "license": "upstream; not redistributed",
+      "notes": "קישור לגרסת מקור מאומתת; עדכונים נבדקים לפי בקשה."
+    },
+    {
+      "id": "heygen-com-talking-head-recut",
+      "name": "talking-head-recut",
+      "category": "וידאו ואנימציה",
+      "description_he": "כותרות וכרטיסי מידע מסונכרנים על וידאו דיבור",
+      "kind": "external",
+      "source": {
+        "repository": "heygen-com/hyperframes",
+        "path": "skills/talking-head-recut",
+        "url": "https://github.com/heygen-com/hyperframes/tree/b211fc7cb845c6838cbdb1860506c2fda2804787/skills/talking-head-recut",
+        "revision": "b211fc7cb845c6838cbdb1860506c2fda2804787",
+        "skill_blob_sha": "9af74497bd1b7755b5946773b8d1a3eacbd2912a",
+        "status": "current-at-review"
+      },
+      "requirements": [
+        "HyperFrames, תמלול ורינדור; הווידאו ממשיך במלואו, ללא חיתוך אוטומטי"
+      ],
+      "compatibility": {
+        "desktop": "assessed",
+        "web": "untested",
+        "mobile": "untested"
+      },
+      "review_status": "content-reviewed",
+      "reviewed_at": "2026-10-11",
+      "license": "upstream; not redistributed",
+      "notes": "קישור לגרסת מקור מאומתת; עדכונים נבדקים לפי בקשה."
+    },
+    {
+      "id": "heygen-com-embedded-captions",
+      "name": "embedded-captions",
+      "category": "וידאו ואנימציה",
+      "description_he": "כתוביות מעוצבות ושילובן מאחורי המצולם",
+      "kind": "external",
+      "source": {
+        "repository": "heygen-com/hyperframes",
+        "path": "skills/embedded-captions",
+        "url": "https://github.com/heygen-com/hyperframes/tree/b211fc7cb845c6838cbdb1860506c2fda2804787/skills/embedded-captions",
+        "revision": "b211fc7cb845c6838cbdb1860506c2fda2804787",
+        "skill_blob_sha": "eadedc22341d1c02e66f2d75f26d2e083a87ac37",
+        "status": "current-at-review"
+      },
+      "requirements": [
+        "HyperFrames, Bash, FFmpeg, תמלול והפרדת רקע; דרושה התאמת Windows"
+      ],
+      "compatibility": {
+        "desktop": "assessed",
+        "web": "untested",
+        "mobile": "untested"
+      },
+      "review_status": "content-reviewed",
+      "reviewed_at": "2026-10-11",
+      "license": "upstream; not redistributed",
+      "notes": "קישור לגרסת מקור מאומתת; עדכונים נבדקים לפי בקשה."
+    },
+    {
+      "id": "heygen-com-faceless-explainer",
+      "name": "faceless-explainer",
+      "category": "וידאו ואנימציה",
+      "description_he": "הפקת סרטון הסבר מטקסט ללא מצולם",
+      "kind": "external",
+      "source": {
+        "repository": "heygen-com/hyperframes",
+        "path": "skills/faceless-explainer",
+        "url": "https://github.com/heygen-com/hyperframes/tree/b211fc7cb845c6838cbdb1860506c2fda2804787/skills/faceless-explainer",
+        "revision": "b211fc7cb845c6838cbdb1860506c2fda2804787",
+        "skill_blob_sha": "2697f22147df2a67e82ed4673268bd496ae4e4a3",
+        "status": "current-at-review"
+      },
+      "requirements": [
+        "חבילת HyperFrames עם סקילס ליבה, מדיה, רינדור ותתי־סוכנים; לא להתקין לבדו"
+      ],
+      "compatibility": {
+        "desktop": "assessed",
+        "web": "untested",
+        "mobile": "untested"
+      },
+      "review_status": "content-reviewed",
+      "reviewed_at": "2026-10-11",
+      "license": "upstream; not redistributed",
+      "notes": "קישור לגרסת מקור מאומתת; עדכונים נבדקים לפי בקשה."
+    },
+    {
+      "id": "bytedance-chart-visualization",
+      "name": "chart-visualization",
+      "category": "מחקר וניתוח",
+      "description_he": "בחירת סוג גרף והפקתו מנתונים",
+      "kind": "external",
+      "source": {
+        "repository": "bytedance/deer-flow",
+        "path": "skills/public/chart-visualization",
+        "url": "https://github.com/bytedance/deer-flow/tree/3f7a076972a927b4256df3e3c18b829186dd1355/skills/public/chart-visualization",
+        "revision": "3f7a076972a927b4256df3e3c18b829186dd1355",
+        "skill_blob_sha": "d7c6358d89e0e8e56c91300bb530c0222864e18c",
+        "status": "current-at-review"
+      },
+      "requirements": [
+        "Node 18+, scripts/generate.js ותיקיית references"
+      ],
+      "compatibility": {
+        "desktop": "assessed",
+        "web": "untested",
+        "mobile": "untested"
+      },
+      "review_status": "content-reviewed",
+      "reviewed_at": "2026-10-11",
+      "license": "upstream; not redistributed",
+      "notes": "קישור לגרסת מקור מאומתת; עדכונים נבדקים לפי בקשה."
+    },
+    {
+      "id": "bytedance-find-skills",
+      "name": "find-skills",
+      "category": "ניהול תהליכים",
+      "description_he": "איתור סקילס והצעת התקנה ממקורות נוספים",
+      "kind": "external",
+      "source": {
+        "repository": "bytedance/deer-flow",
+        "path": "skills/public/find-skills",
+        "url": "https://github.com/bytedance/deer-flow/tree/3f7a076972a927b4256df3e3c18b829186dd1355/skills/public/find-skills",
+        "revision": "3f7a076972a927b4256df3e3c18b829186dd1355",
+        "skill_blob_sha": "0b3c85577a1cfe4d2912c253864647960b153aa7",
+        "status": "current-at-review"
+      },
+      "requirements": [
+        "Skills CLI, Bash וסקריפט התקנה; אין לבצע עדכון גורף ללא בקשת משתמש"
+      ],
+      "compatibility": {
+        "desktop": "assessed",
+        "web": "untested",
+        "mobile": "untested"
+      },
+      "review_status": "content-reviewed",
+      "reviewed_at": "2026-10-11",
+      "license": "upstream; not redistributed",
+      "notes": "קישור לגרסת מקור מאומתת; עדכונים נבדקים לפי בקשה."
+    },
+    {
+      "id": "calesthio-character-rigging",
+      "name": "character-rigging",
+      "category": "וידאו ואנימציה",
+      "description_he": "הכנת דמות דו־ממדית עם חלקים, צירים ושכבות",
+      "kind": "external",
+      "source": {
+        "repository": "calesthio/OpenMontage",
+        "path": ".agents/skills/character-rigging",
+        "url": "https://github.com/calesthio/OpenMontage/tree/9327439db69021ab4b0e2776729bf3b58fdb5a87/.agents/skills/character-rigging",
+        "revision": "9327439db69021ab4b0e2776729bf3b58fdb5a87",
+        "skill_blob_sha": "8379639db5611809921ac917b1d853101669c140",
+        "status": "current-at-review"
+      },
+      "requirements": [
+        "פורמט rig_plan של OpenMontage, נכסי דמות ומנוע רינדור; משלים svg-character-animation"
+      ],
+      "compatibility": {
+        "desktop": "assessed",
+        "web": "untested",
+        "mobile": "untested"
+      },
+      "review_status": "content-reviewed",
+      "reviewed_at": "2026-10-11",
+      "license": "upstream; not redistributed",
+      "notes": "קישור לגרסת מקור מאומתת; עדכונים נבדקים לפי בקשה."
+    },
+    {
+      "id": "calesthio-svg-character-animation",
+      "name": "svg-character-animation",
+      "category": "וידאו ואנימציה",
+      "description_he": "הנפשת דמויות SVG בתנועות ותזמונים",
+      "kind": "external",
+      "source": {
+        "repository": "calesthio/OpenMontage",
+        "path": ".agents/skills/svg-character-animation",
+        "url": "https://github.com/calesthio/OpenMontage/tree/9327439db69021ab4b0e2776729bf3b58fdb5a87/.agents/skills/svg-character-animation",
+        "revision": "9327439db69021ab4b0e2776729bf3b58fdb5a87",
+        "skill_blob_sha": "3a0ddaa28483d4f65c234c32079e44c086356f30",
+        "status": "current-at-review"
+      },
+      "requirements": [
+        "GSAP וסביבת דפדפן, Remotion או HyperFrames; משלים character-rigging"
+      ],
+      "compatibility": {
+        "desktop": "assessed",
+        "web": "untested",
+        "mobile": "untested"
+      },
+      "review_status": "content-reviewed",
+      "reviewed_at": "2026-10-11",
+      "license": "upstream; not redistributed",
+      "notes": "קישור לגרסת מקור מאומתת; עדכונים נבדקים לפי בקשה."
+    },
+    {
+      "id": "bytedance-systematic-literature-review",
+      "name": "systematic-literature-review",
+      "category": "מחקר וניתוח",
+      "description_he": "השוואה וסינתזה של מאמרים רבים בנושא מחקר",
+      "kind": "external",
+      "source": {
+        "repository": "bytedance/deer-flow",
+        "path": "skills/public/systematic-literature-review",
+        "url": "https://github.com/bytedance/deer-flow/tree/3f7a076972a927b4256df3e3c18b829186dd1355/skills/public/systematic-literature-review",
+        "revision": "3f7a076972a927b4256df3e3c18b829186dd1355",
+        "skill_blob_sha": "b81dbe75aa5b6f1f90b56940367794426474b8f9",
+        "status": "current-at-review"
+      },
+      "requirements": [
+        "Python, סביבת DeerFlow, נתיבי Linux וכלי task עם subagent_enabled; דרושה התאמה לסוכן אחר"
+      ],
+      "compatibility": {
+        "desktop": "assessed",
+        "web": "untested",
+        "mobile": "untested"
+      },
+      "review_status": "content-reviewed",
+      "reviewed_at": "2026-10-11",
+      "license": "upstream; not redistributed",
+      "notes": "קישור לגרסת מקור מאומתת; עדכונים נבדקים לפי בקשה."
+    },
+    {
+      "id": "bytedance-podcast-generation",
+      "name": "podcast-generation",
+      "category": "אודיו",
+      "description_he": "המרת תוכן לפודקאסט בשני קולות",
+      "kind": "external",
+      "source": {
+        "repository": "bytedance/deer-flow",
+        "path": "skills/public/podcast-generation",
+        "url": "https://github.com/bytedance/deer-flow/tree/3f7a076972a927b4256df3e3c18b829186dd1355/skills/public/podcast-generation",
+        "revision": "3f7a076972a927b4256df3e3c18b829186dd1355",
+        "skill_blob_sha": "23f5e052368c5206dcb85839032dedc368fd29a7",
+        "status": "current-at-review"
+      },
+      "requirements": [
+        "Python, שירות TTS ונתיבי DeerFlow; המקור מציין אנגלית וסינית, עברית לא נבדקה"
+      ],
+      "compatibility": {
+        "desktop": "assessed",
+        "web": "untested",
+        "mobile": "untested"
+      },
+      "review_status": "content-reviewed",
+      "reviewed_at": "2026-10-11",
+      "license": "upstream; not redistributed",
+      "notes": "קישור לגרסת מקור מאומתת; עדכונים נבדקים לפי בקשה."
     }
   ]
 }
