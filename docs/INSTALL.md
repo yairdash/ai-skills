@@ -20,7 +20,7 @@ npx skills add <source-url> --skill <frontmatter-name> --agent codex --copy
 
 Replace `codex` with a supported target agent such as `claude-code` or `cursor`. Project-local is the default; add `--global` only when the user requests a user-wide install. Use `--copy` to avoid symlink limitations on Windows. Do not run the command with literal angle-bracket placeholders.
 
-All 18 initial entries point to reviewed commit revisions. Use the complete URL from the catalog, including its commit SHA. For example, this installs the original historical prose critique skill:
+All catalog entries point to reviewed commit revisions. Use the complete URL from the catalog, including its commit SHA. For example, this installs the original historical prose critique skill:
 
 ```sh
 npx skills add https://github.com/haowjy/creative-writing-skills/tree/5b12a118445619be5ef4591440a47baf6cacc662/skills/prose-critique --skill prose-critique --agent codex --copy

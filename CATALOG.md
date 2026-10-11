@@ -12,6 +12,10 @@
 | [character-voice](https://github.com/haowjy/creative-writing-skills/tree/5b12a118445619be5ef4591440a47baf6cacc662/skills/character-voice) | פיתוח קול מובחן לדמויות | מקור חיצוני — גרסה היסטורית | מידע על הדמות ודוגמאות קול | סקירת תוכן בלבד |
 | [worldbuilding](https://github.com/danjdewhurst/story-skills/tree/9a54e04b210c0adb9ac9807fcc876eda1d27e9f6/skills/worldbuilding) | בניית עולם ושמירת חוקי העולם | מקור חיצוני — גרסה מאומתת | פרויקט story-init וגישה לקבצי הפרויקט | סקירת תוכן בלבד |
 | [revision-continuity](https://github.com/danjdewhurst/story-skills/tree/9a54e04b210c0adb9ac9807fcc876eda1d27e9f6/skills/revision-continuity) | תיקון סתירות ושמירת רציפות | מקור חיצוני — גרסה מאומתת | פרויקט סיפור; story-maintenance וכלי קבצים | סקירת תוכן בלבד |
+| [brainstorming](https://github.com/haowjy/creative-writing-skills/tree/5b12a118445619be5ef4591440a47baf6cacc662/cw/skills/brainstorming) | פיתוח רעיונות לסיפור ושמירת אפשרויות יצירתיות פתוחות | מקור חיצוני — גרסה היסטורית | הוראות טקסט; יש להבחין בין רעיונות המחבר להצעות הסוכן | סקירת תוכן בלבד |
+| [scene-construction](https://github.com/haowjy/creative-writing-skills/tree/5b12a118445619be5ef4591440a47baf6cacc662/cw/skills/scene-construction) | בניית סצנות, דיאלוג, כניסה וקצב | מקור חיצוני — גרסה היסטורית | משלים prose-writing ו־story-architecture; יש לבדוק גרסאות משלימות | סקירת תוכן בלבד |
+| [style-analysis](https://github.com/haowjy/creative-writing-skills/tree/5b12a118445619be5ef4591440a47baf6cacc662/cw/skills/style-analysis) | ניתוח קול כתיבה והכנת קובצי סגנון לשימוש חוזר | מקור חיצוני — גרסה היסטורית | טקסט לדוגמה; גישה לקובצי הפרויקט כששומרים קובצי סגנון | סקירת תוכן בלבד |
+| [reader-experience](https://github.com/haowjy/creative-writing-skills/tree/5b12a118445619be5ef4591440a47baf6cacc662/cw/skills/reader-experience) | משוב על חוויית הקריאה, סקרנות ורגעי איבוד עניין | מקור חיצוני — גרסה היסטורית | טיוטה לקריאה; משלים ביקורת פרוזה | סקירת תוכן בלבד |
 
 ## תמונה ועיצוב
 
@@ -29,12 +33,16 @@
 | [muapi-cinema-director](https://github.com/SamurAIGPT/Generative-Media-Skills/tree/66b55e2a27ee554667ec255782922bae72882cc8/library/motion/cinema-director) | תרגום כוונת בימוי לשוטים וליצירת וידאו | מקור חיצוני — גרסה מאומתת | Bash, muapi וקובצי core משותפים מחוץ לתיקיית הסקיל | סקירת תוכן בלבד |
 | [website-to-video](https://github.com/heygen-com/hyperframes/tree/ca69b6b0809019b1d835b7abb14f5eed99e96634/skills/website-to-video) | המרת עיצוב אתר לקומפוזיציית וידאו | מקור חיצוני — גרסה היסטורית | Node, HyperFrames, דפדפן וסקילס ליבה משלימים | סקירת תוכן בלבד |
 | [slideshow](https://github.com/heygen-com/hyperframes/tree/b211fc7cb845c6838cbdb1860506c2fda2804787/skills/slideshow) | מצגת אינטראקטיבית במנוע HyperFrames | מקור חיצוני — גרסה מאומתת | HyperFrames, GSAP ו־hyperframes-core | סקירת תוכן בלבד |
+| [video-edit](https://github.com/calesthio/OpenMontage/tree/9327439db69021ab4b0e2776729bf3b58fdb5a87/.agents/skills/video-edit) | חיתוך וחיבור וידאו, שינוי גודל, אודיו ודחיסה | מקור חיצוני — גרסה מאומתת | FFmpeg ו־ffprobe; יש להתאים הוראות התקנה ל־Windows | סקירת תוכן בלבד |
+| [video-understand](https://github.com/calesthio/OpenMontage/tree/9327439db69021ab4b0e2776729bf3b58fdb5a87/.agents/skills/video-understand) | חילוץ פריימים וניתוח חומר גלם עם אפשרות לתמלול מקומי | מקור חיצוני — גרסה מאומתת | FFmpeg, Python וקובצי scripts; Whisper לתמלול וכלי ניתוח תמונה אצל הסוכן | סקירת תוכן בלבד |
 
 ## אודיו
 
 | סקיל | שימוש | מיקום וגרסה | דרישות | בדיקה |
 |---|---|---|---|---|
 | [music-generation](https://github.com/bytedance/deer-flow/tree/91a88e08e66f886e57fa9eccdc1f4ceb9f870973/skills/public/music-generation) | יצירת מוזיקה ושירים מתיאור ומילים | מקור חיצוני — גרסה מאומתת | Python, MINIMAX_API_KEY; נתיבי Linux וכלי תוצרים של DeerFlow דורשים התאמה | סקירת תוכן בלבד |
+| [speech-to-text](https://github.com/calesthio/OpenMontage/tree/9327439db69021ab4b0e2776729bf3b58fdb5a87/.agents/skills/speech-to-text) | תמלול אודיו עם הפרדת דוברים וחותמות זמן | מקור חיצוני — גרסה מאומתת | ElevenLabs API, ELEVENLABS_API_KEY ותיקיית references; שירות חיצוני | סקירת תוכן בלבד |
+| [sound-effects](https://github.com/calesthio/OpenMontage/tree/9327439db69021ab4b0e2776729bf3b58fdb5a87/.agents/skills/sound-effects) | יצירת אפקטים ואווירות סאונד מתיאור | מקור חיצוני — גרסה מאומתת | ElevenLabs API ו־ELEVENLABS_API_KEY; שירות חיצוני | סקירת תוכן בלבד |
 
 ## מחקר וניתוח
 
@@ -42,6 +50,8 @@
 |---|---|---|---|---|
 | [deep-research](https://github.com/bytedance/deer-flow/tree/91a88e08e66f886e57fa9eccdc1f4ceb9f870973/skills/public/deep-research) | מחקר רב שלבי ואיסוף מקורות | מקור חיצוני — גרסה מאומתת | כלי חיפוש וגלישה של הסוכן; לבדוק תלות ב־DeerFlow | סקירת תוכן בלבד |
 | [data-analysis](https://github.com/bytedance/deer-flow/tree/91a88e08e66f886e57fa9eccdc1f4ceb9f870973/skills/public/data-analysis) | ניתוח נתונים והצגת תוצאות | מקור חיצוני — גרסה מאומתת | סביבת נתונים, קבצים וספריות Python לפי המשימה | סקירת תוכן בלבד |
+| [academic-paper-review](https://github.com/bytedance/deer-flow/tree/a1383a795377398c1ee6c1bb26a137526cae0567/skills/public/academic-paper-review) | ניתוח מאמר יחיד, שיטות מחקר, מגבלות ומסקנות | מקור חיצוני — גרסה מאומתת | קריאת PDF וגלישה; להתאים נתיבי תוצרים של DeerFlow לסביבה | סקירת תוכן בלבד |
+| [github-deep-research](https://github.com/bytedance/deer-flow/tree/a1383a795377398c1ee6c1bb26a137526cae0567/skills/public/github-deep-research) | מחקר מאגר GitHub לפני אימוץ כלי או סקיל | מקור חיצוני — גרסה מאומתת | Python, scripts/github_api.py, GitHub API וכלי חיפוש וגלישה | סקירת תוכן בלבד |
 
 ## ניהול תהליכים
 
@@ -49,3 +59,5 @@
 |---|---|---|---|---|
 | [project-setup](https://github.com/haowjy/creative-writing-skills/tree/254d4bb9b3b2e50a47def955b6461c06057eedae/cw/skills/project-setup) | הקמת סביבת פרויקט כתיבה | מקור חיצוני — גרסה מאומתת | כלי קבצים וחבילת creative-writing-skills | סקירת תוכן בלבד |
 | [skill-creator](https://github.com/bytedance/deer-flow/tree/91a88e08e66f886e57fa9eccdc1f4ceb9f870973/skills/public/skill-creator) | יצירה ושיפור של סקילס | מקור חיצוני — גרסה מאומתת | כלי קבצים וסקריפטים; להשוות לסקיל היוצר שכבר מותקן | סקירת תוכן בלבד |
+| [story-init](https://github.com/danjdewhurst/story-skills/tree/9a54e04b210c0adb9ac9807fcc876eda1d27e9f6/skills/story-init) | הקמת פרויקט סיפור עם בייבל, מעקב סצנות וקובצי עולם | מקור חיצוני — גרסה מאומתת | Story CLI או Node והסקיל story-maintenance; גישה לקבצים | סקירת תוכן בלבד |
+| [story-maintenance](https://github.com/danjdewhurst/story-skills/tree/9a54e04b210c0adb9ac9807fcc876eda1d27e9f6/skills/story-maintenance) | בדיקת רציפות, קישורים, אינדקסים וייבוא כתב יד | מקור חיצוני — גרסה מאומתת | Node ו־scripts/story.js; משלים worldbuilding ו־revision-continuity | סקירת תוכן בלבד |

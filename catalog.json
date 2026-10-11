@@ -489,6 +489,330 @@
       "reviewed_at": "2026-10-11",
       "license": "upstream; not redistributed",
       "notes": "קישור לגרסת מקור מאומתת; עדכונים נבדקים לפי בקשה."
+    },
+    {
+      "id": "haowjy-brainstorming",
+      "name": "brainstorming",
+      "category": "כתיבה וסיפור",
+      "description_he": "פיתוח רעיונות לסיפור ושמירת אפשרויות יצירתיות פתוחות",
+      "kind": "external",
+      "source": {
+        "repository": "haowjy/creative-writing-skills",
+        "path": "cw/skills/brainstorming",
+        "url": "https://github.com/haowjy/creative-writing-skills/tree/5b12a118445619be5ef4591440a47baf6cacc662/cw/skills/brainstorming",
+        "revision": "5b12a118445619be5ef4591440a47baf6cacc662",
+        "skill_blob_sha": "a9452c6eb285ae242c86db0d251da734bef4b3e6",
+        "status": "historical-snapshot"
+      },
+      "requirements": [
+        "הוראות טקסט; יש להבחין בין רעיונות המחבר להצעות הסוכן"
+      ],
+      "compatibility": {
+        "desktop": "assessed",
+        "web": "untested",
+        "mobile": "untested"
+      },
+      "review_status": "content-reviewed",
+      "reviewed_at": "2026-10-11",
+      "license": "upstream; not redistributed",
+      "notes": "הסקיל הישן אינו זמין בגרסה הנוכחית; הקישור שומר את הגרסה ההיסטורית שאומתה. עדכון מחייב בדיקת החבילה החדשה."
+    },
+    {
+      "id": "haowjy-scene-construction",
+      "name": "scene-construction",
+      "category": "כתיבה וסיפור",
+      "description_he": "בניית סצנות, דיאלוג, כניסה וקצב",
+      "kind": "external",
+      "source": {
+        "repository": "haowjy/creative-writing-skills",
+        "path": "cw/skills/scene-construction",
+        "url": "https://github.com/haowjy/creative-writing-skills/tree/5b12a118445619be5ef4591440a47baf6cacc662/cw/skills/scene-construction",
+        "revision": "5b12a118445619be5ef4591440a47baf6cacc662",
+        "skill_blob_sha": "c0d44cb32a68bd4d1a23c3449331c6372b761014",
+        "status": "historical-snapshot"
+      },
+      "requirements": [
+        "משלים prose-writing ו־story-architecture; יש לבדוק גרסאות משלימות"
+      ],
+      "compatibility": {
+        "desktop": "assessed",
+        "web": "untested",
+        "mobile": "untested"
+      },
+      "review_status": "content-reviewed",
+      "reviewed_at": "2026-10-11",
+      "license": "upstream; not redistributed",
+      "notes": "הסקיל הישן אינו זמין בגרסה הנוכחית; הקישור שומר את הגרסה ההיסטורית שאומתה. עדכון מחייב בדיקת החבילה החדשה."
+    },
+    {
+      "id": "haowjy-style-analysis",
+      "name": "style-analysis",
+      "category": "כתיבה וסיפור",
+      "description_he": "ניתוח קול כתיבה והכנת קובצי סגנון לשימוש חוזר",
+      "kind": "external",
+      "source": {
+        "repository": "haowjy/creative-writing-skills",
+        "path": "cw/skills/style-analysis",
+        "url": "https://github.com/haowjy/creative-writing-skills/tree/5b12a118445619be5ef4591440a47baf6cacc662/cw/skills/style-analysis",
+        "revision": "5b12a118445619be5ef4591440a47baf6cacc662",
+        "skill_blob_sha": "effca9eab9fd56308cf18106b48dcc33d3cd1c9d",
+        "status": "historical-snapshot"
+      },
+      "requirements": [
+        "טקסט לדוגמה; גישה לקובצי הפרויקט כששומרים קובצי סגנון"
+      ],
+      "compatibility": {
+        "desktop": "assessed",
+        "web": "untested",
+        "mobile": "untested"
+      },
+      "review_status": "content-reviewed",
+      "reviewed_at": "2026-10-11",
+      "license": "upstream; not redistributed",
+      "notes": "הסקיל הישן אינו זמין בגרסה הנוכחית; הקישור שומר את הגרסה ההיסטורית שאומתה. עדכון מחייב בדיקת החבילה החדשה."
+    },
+    {
+      "id": "haowjy-reader-experience",
+      "name": "reader-experience",
+      "category": "כתיבה וסיפור",
+      "description_he": "משוב על חוויית הקריאה, סקרנות ורגעי איבוד עניין",
+      "kind": "external",
+      "source": {
+        "repository": "haowjy/creative-writing-skills",
+        "path": "cw/skills/reader-experience",
+        "url": "https://github.com/haowjy/creative-writing-skills/tree/5b12a118445619be5ef4591440a47baf6cacc662/cw/skills/reader-experience",
+        "revision": "5b12a118445619be5ef4591440a47baf6cacc662",
+        "skill_blob_sha": "4fb4c248edac6af249d3d91c90f3a7e52de73b7f",
+        "status": "historical-snapshot"
+      },
+      "requirements": [
+        "טיוטה לקריאה; משלים ביקורת פרוזה"
+      ],
+      "compatibility": {
+        "desktop": "assessed",
+        "web": "untested",
+        "mobile": "untested"
+      },
+      "review_status": "content-reviewed",
+      "reviewed_at": "2026-10-11",
+      "license": "upstream; not redistributed",
+      "notes": "הסקיל הישן אינו זמין בגרסה הנוכחית; הקישור שומר את הגרסה ההיסטורית שאומתה. עדכון מחייב בדיקת החבילה החדשה."
+    },
+    {
+      "id": "danjdewhurst-story-init",
+      "name": "story-init",
+      "category": "ניהול תהליכים",
+      "description_he": "הקמת פרויקט סיפור עם בייבל, מעקב סצנות וקובצי עולם",
+      "kind": "external",
+      "source": {
+        "repository": "danjdewhurst/story-skills",
+        "path": "skills/story-init",
+        "url": "https://github.com/danjdewhurst/story-skills/tree/9a54e04b210c0adb9ac9807fcc876eda1d27e9f6/skills/story-init",
+        "revision": "9a54e04b210c0adb9ac9807fcc876eda1d27e9f6",
+        "skill_blob_sha": "994c2fe0625f9291a42515e012381b1dc6018e52",
+        "status": "current-at-review"
+      },
+      "requirements": [
+        "Story CLI או Node והסקיל story-maintenance; גישה לקבצים"
+      ],
+      "compatibility": {
+        "desktop": "assessed",
+        "web": "untested",
+        "mobile": "untested"
+      },
+      "review_status": "content-reviewed",
+      "reviewed_at": "2026-10-11",
+      "license": "upstream; not redistributed",
+      "notes": "קישור לגרסת מקור מאומתת; עדכונים נבדקים לפי בקשה."
+    },
+    {
+      "id": "danjdewhurst-story-maintenance",
+      "name": "story-maintenance",
+      "category": "ניהול תהליכים",
+      "description_he": "בדיקת רציפות, קישורים, אינדקסים וייבוא כתב יד",
+      "kind": "external",
+      "source": {
+        "repository": "danjdewhurst/story-skills",
+        "path": "skills/story-maintenance",
+        "url": "https://github.com/danjdewhurst/story-skills/tree/9a54e04b210c0adb9ac9807fcc876eda1d27e9f6/skills/story-maintenance",
+        "revision": "9a54e04b210c0adb9ac9807fcc876eda1d27e9f6",
+        "skill_blob_sha": "1b6d1cb347dd8ddff0e157dea77e2464a8a98179",
+        "status": "current-at-review"
+      },
+      "requirements": [
+        "Node ו־scripts/story.js; משלים worldbuilding ו־revision-continuity"
+      ],
+      "compatibility": {
+        "desktop": "assessed",
+        "web": "untested",
+        "mobile": "untested"
+      },
+      "review_status": "content-reviewed",
+      "reviewed_at": "2026-10-11",
+      "license": "upstream; not redistributed",
+      "notes": "קישור לגרסת מקור מאומתת; עדכונים נבדקים לפי בקשה."
+    },
+    {
+      "id": "calesthio-video-edit",
+      "name": "video-edit",
+      "category": "וידאו ואנימציה",
+      "description_he": "חיתוך וחיבור וידאו, שינוי גודל, אודיו ודחיסה",
+      "kind": "external",
+      "source": {
+        "repository": "calesthio/OpenMontage",
+        "path": ".agents/skills/video-edit",
+        "url": "https://github.com/calesthio/OpenMontage/tree/9327439db69021ab4b0e2776729bf3b58fdb5a87/.agents/skills/video-edit",
+        "revision": "9327439db69021ab4b0e2776729bf3b58fdb5a87",
+        "skill_blob_sha": "e4a33321b7bb210e5c31d6e620e5c6219b1a77b9",
+        "status": "current-at-review"
+      },
+      "requirements": [
+        "FFmpeg ו־ffprobe; יש להתאים הוראות התקנה ל־Windows"
+      ],
+      "compatibility": {
+        "desktop": "assessed",
+        "web": "untested",
+        "mobile": "untested"
+      },
+      "review_status": "content-reviewed",
+      "reviewed_at": "2026-10-11",
+      "license": "upstream; not redistributed",
+      "notes": "קישור לגרסת מקור מאומתת; עדכונים נבדקים לפי בקשה."
+    },
+    {
+      "id": "calesthio-video-understand",
+      "name": "video-understand",
+      "category": "וידאו ואנימציה",
+      "description_he": "חילוץ פריימים וניתוח חומר גלם עם אפשרות לתמלול מקומי",
+      "kind": "external",
+      "source": {
+        "repository": "calesthio/OpenMontage",
+        "path": ".agents/skills/video-understand",
+        "url": "https://github.com/calesthio/OpenMontage/tree/9327439db69021ab4b0e2776729bf3b58fdb5a87/.agents/skills/video-understand",
+        "revision": "9327439db69021ab4b0e2776729bf3b58fdb5a87",
+        "skill_blob_sha": "43f7ccfd177fc8ace69eaa2c7d081e382c4c3cba",
+        "status": "current-at-review"
+      },
+      "requirements": [
+        "FFmpeg, Python וקובצי scripts; Whisper לתמלול וכלי ניתוח תמונה אצל הסוכן"
+      ],
+      "compatibility": {
+        "desktop": "assessed",
+        "web": "untested",
+        "mobile": "untested"
+      },
+      "review_status": "content-reviewed",
+      "reviewed_at": "2026-10-11",
+      "license": "upstream; not redistributed",
+      "notes": "קישור לגרסת מקור מאומתת; עדכונים נבדקים לפי בקשה."
+    },
+    {
+      "id": "calesthio-speech-to-text",
+      "name": "speech-to-text",
+      "category": "אודיו",
+      "description_he": "תמלול אודיו עם הפרדת דוברים וחותמות זמן",
+      "kind": "external",
+      "source": {
+        "repository": "calesthio/OpenMontage",
+        "path": ".agents/skills/speech-to-text",
+        "url": "https://github.com/calesthio/OpenMontage/tree/9327439db69021ab4b0e2776729bf3b58fdb5a87/.agents/skills/speech-to-text",
+        "revision": "9327439db69021ab4b0e2776729bf3b58fdb5a87",
+        "skill_blob_sha": "17a0677c1e47668dfd4fa001f4034617af4f1772",
+        "status": "current-at-review"
+      },
+      "requirements": [
+        "ElevenLabs API, ELEVENLABS_API_KEY ותיקיית references; שירות חיצוני"
+      ],
+      "compatibility": {
+        "desktop": "assessed",
+        "web": "untested",
+        "mobile": "untested"
+      },
+      "review_status": "content-reviewed",
+      "reviewed_at": "2026-10-11",
+      "license": "upstream; not redistributed",
+      "notes": "קישור לגרסת מקור מאומתת; עדכונים נבדקים לפי בקשה."
+    },
+    {
+      "id": "calesthio-sound-effects",
+      "name": "sound-effects",
+      "category": "אודיו",
+      "description_he": "יצירת אפקטים ואווירות סאונד מתיאור",
+      "kind": "external",
+      "source": {
+        "repository": "calesthio/OpenMontage",
+        "path": ".agents/skills/sound-effects",
+        "url": "https://github.com/calesthio/OpenMontage/tree/9327439db69021ab4b0e2776729bf3b58fdb5a87/.agents/skills/sound-effects",
+        "revision": "9327439db69021ab4b0e2776729bf3b58fdb5a87",
+        "skill_blob_sha": "197edfdfb5db501df17ccd3c3c709bf1d87b49cb",
+        "status": "current-at-review"
+      },
+      "requirements": [
+        "ElevenLabs API ו־ELEVENLABS_API_KEY; שירות חיצוני"
+      ],
+      "compatibility": {
+        "desktop": "assessed",
+        "web": "untested",
+        "mobile": "untested"
+      },
+      "review_status": "content-reviewed",
+      "reviewed_at": "2026-10-11",
+      "license": "upstream; not redistributed",
+      "notes": "קישור לגרסת מקור מאומתת; עדכונים נבדקים לפי בקשה."
+    },
+    {
+      "id": "bytedance-academic-paper-review",
+      "name": "academic-paper-review",
+      "category": "מחקר וניתוח",
+      "description_he": "ניתוח מאמר יחיד, שיטות מחקר, מגבלות ומסקנות",
+      "kind": "external",
+      "source": {
+        "repository": "bytedance/deer-flow",
+        "path": "skills/public/academic-paper-review",
+        "url": "https://github.com/bytedance/deer-flow/tree/a1383a795377398c1ee6c1bb26a137526cae0567/skills/public/academic-paper-review",
+        "revision": "a1383a795377398c1ee6c1bb26a137526cae0567",
+        "skill_blob_sha": "165321cb6ce032f943ec50d8537431e3552e7785",
+        "status": "current-at-review"
+      },
+      "requirements": [
+        "קריאת PDF וגלישה; להתאים נתיבי תוצרים של DeerFlow לסביבה"
+      ],
+      "compatibility": {
+        "desktop": "assessed",
+        "web": "untested",
+        "mobile": "untested"
+      },
+      "review_status": "content-reviewed",
+      "reviewed_at": "2026-10-11",
+      "license": "upstream; not redistributed",
+      "notes": "קישור לגרסת מקור מאומתת; עדכונים נבדקים לפי בקשה."
+    },
+    {
+      "id": "bytedance-github-deep-research",
+      "name": "github-deep-research",
+      "category": "מחקר וניתוח",
+      "description_he": "מחקר מאגר GitHub לפני אימוץ כלי או סקיל",
+      "kind": "external",
+      "source": {
+        "repository": "bytedance/deer-flow",
+        "path": "skills/public/github-deep-research",
+        "url": "https://github.com/bytedance/deer-flow/tree/a1383a795377398c1ee6c1bb26a137526cae0567/skills/public/github-deep-research",
+        "revision": "a1383a795377398c1ee6c1bb26a137526cae0567",
+        "skill_blob_sha": "2add158655327af63eefdaf683a1906d537e8c8c",
+        "status": "current-at-review"
+      },
+      "requirements": [
+        "Python, scripts/github_api.py, GitHub API וכלי חיפוש וגלישה"
+      ],
+      "compatibility": {
+        "desktop": "assessed",
+        "web": "untested",
+        "mobile": "untested"
+      },
+      "review_status": "content-reviewed",
+      "reviewed_at": "2026-10-11",
+      "license": "upstream; not redistributed",
+      "notes": "קישור לגרסת מקור מאומתת; עדכונים נבדקים לפי בקשה."
     }
   ]
 }
