@@ -41,6 +41,8 @@
 | [faceless-explainer](https://github.com/heygen-com/hyperframes/tree/b211fc7cb845c6838cbdb1860506c2fda2804787/skills/faceless-explainer) | הפקת סרטון הסבר מטקסט ללא מצולם | מקור חיצוני — גרסה מאומתת | חבילת HyperFrames עם סקילס ליבה, מדיה, רינדור ותתי־סוכנים; לא להתקין לבדו | סקירת תוכן בלבד |
 | [character-rigging](https://github.com/calesthio/OpenMontage/tree/9327439db69021ab4b0e2776729bf3b58fdb5a87/.agents/skills/character-rigging) | הכנת דמות דו־ממדית עם חלקים, צירים ושכבות | מקור חיצוני — גרסה מאומתת | פורמט rig_plan של OpenMontage, נכסי דמות ומנוע רינדור; משלים svg-character-animation | סקירת תוכן בלבד |
 | [svg-character-animation](https://github.com/calesthio/OpenMontage/tree/9327439db69021ab4b0e2776729bf3b58fdb5a87/.agents/skills/svg-character-animation) | הנפשת דמויות SVG בתנועות ותזמונים | מקור חיצוני — גרסה מאומתת | GSAP וסביבת דפדפן, Remotion או HyperFrames; משלים character-rigging | סקירת תוכן בלבד |
+| [h3-prompt-writing](https://github.com/MiniMax-AI/MiniMax-H3/tree/fa6891ff7cdaaa03fa4497e89ac64ff169219acf/skills/h3-prompt-writing) | כתיבת פרומפטים רב־מודאליים ל־MiniMax H3 עם תמונות פתיחה, סיום ורפרנסים | מקור חיצוני — גרסה מאומתת | קריאת מדריכי references מהמקור; כתיבת טקסט אינה דורשת API, הפקת וידאו דורשת שירות נפרד | סקירת תוכן בלבד |
+| [develop-h3-parody-shorts](skills/develop-h3-parody-shorts) | מחקר, פיתוח ובדיקת סרטוני H3 עם פרומפטים, אימות נתונים ובקרת תוצאות | במאגר | Python 3 לבדיקות; h3-prompt-writing מהקטלוג; FAL רק בעת הפקה מאושרת | סקירת תוכן בלבד |
 
 ## אודיו
 

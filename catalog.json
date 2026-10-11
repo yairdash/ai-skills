@@ -1083,6 +1083,60 @@
       "reviewed_at": "2026-10-11",
       "license": "upstream; not redistributed",
       "notes": "קישור לגרסת מקור מאומתת; עדכונים נבדקים לפי בקשה."
+    },
+    {
+      "id": "minimax-ai-h3-prompt-writing",
+      "name": "h3-prompt-writing",
+      "category": "וידאו ואנימציה",
+      "description_he": "כתיבת פרומפטים רב־מודאליים ל־MiniMax H3 עם תמונות פתיחה, סיום ורפרנסים",
+      "kind": "external",
+      "source": {
+        "repository": "MiniMax-AI/MiniMax-H3",
+        "path": "skills/h3-prompt-writing",
+        "url": "https://github.com/MiniMax-AI/MiniMax-H3/tree/fa6891ff7cdaaa03fa4497e89ac64ff169219acf/skills/h3-prompt-writing",
+        "revision": "fa6891ff7cdaaa03fa4497e89ac64ff169219acf",
+        "skill_blob_sha": "066429d78f72b080a52350a5b165e52cb31b0bca",
+        "status": "reviewed-snapshot"
+      },
+      "requirements": [
+        "קריאת מדריכי references מהמקור; כתיבת טקסט אינה דורשת API, הפקת וידאו דורשת שירות נפרד"
+      ],
+      "compatibility": {
+        "desktop": "assessed",
+        "web": "untested",
+        "mobile": "untested"
+      },
+      "review_status": "content-reviewed",
+      "reviewed_at": "2026-10-11",
+      "license": "upstream; not redistributed",
+      "notes": "Owner selected P01 as a public upstream link."
+    },
+    {
+      "id": "yairdash-develop-h3-parody-shorts",
+      "name": "develop-h3-parody-shorts",
+      "category": "וידאו ואנימציה",
+      "description_he": "מחקר, פיתוח ובדיקת סרטוני H3 עם פרומפטים, אימות נתונים ובקרת תוצאות",
+      "kind": "hosted",
+      "path": "skills/develop-h3-parody-shorts",
+      "source": {
+        "repository": "yairdash/ai-skills",
+        "path": "skills/develop-h3-parody-shorts",
+        "url": "https://github.com/yairdash/ai-skills/tree/main/skills/develop-h3-parody-shorts",
+        "revision": null,
+        "status": "maintained-here"
+      },
+      "requirements": [
+        "Python 3 לבדיקות; h3-prompt-writing מהקטלוג; FAL רק בעת הפקה מאושרת"
+      ],
+      "compatibility": {
+        "desktop": "assessed",
+        "web": "untested",
+        "mobile": "untested"
+      },
+      "review_status": "content-reviewed",
+      "reviewed_at": "2026-10-11",
+      "license": "No open-source redistribution license selected; upstream terms remain separate",
+      "notes": "Public edition omits private observations, source-media details and local paths; Generic references replace unavailable private reports; dated price examples are labeled"
     }
   ]
 }

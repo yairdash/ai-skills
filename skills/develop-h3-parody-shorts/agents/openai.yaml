@@ -1,0 +1,4 @@
+interface:
+  display_name: "Develop H3 Parody Shorts"
+  short_description: "Research, benchmark, and develop H3 parody shorts"
+  default_prompt: "Use $develop-h3-parody-shorts to research and prepare a cost-gated MiniMax H3 parody-short workflow."

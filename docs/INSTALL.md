@@ -30,6 +30,10 @@ This exact pinned source was installed successfully in an isolated Codex project
 
 If a required sibling skill or shared runtime is missing, install the documented dependency or use the source project's installation instructions. Some catalogs contain recipes for a whole application rather than independently runnable skills.
 
+## Hosted H3 workflow
+
+Install `develop-h3-parody-shorts` from this repository, then install its companion `h3-prompt-writing` using the pinned external URL in the catalog. The public workflow includes its Python validator and tests; it does not include private production observations or media. Resolve `scripts/` relative to the installed skill folder. No media generation is needed to run the validators.
+
 ## Private sources
 
 Use the same flow while signed in through an authorized Git credential helper or GitHub CLI. Never paste tokens into chat, command URLs, catalog entries or committed files. An authenticated GitHub connector does not necessarily authenticate local Git or the browser.

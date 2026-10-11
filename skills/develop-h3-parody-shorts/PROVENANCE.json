@@ -1,0 +1,32 @@
+{
+  "source": {
+    "repository": "yairdash/ai-skills",
+    "path": "skills/develop-h3-parody-shorts",
+    "url": "https://github.com/yairdash/ai-skills/tree/main/skills/develop-h3-parody-shorts",
+    "revision": null,
+    "status": "maintained-here"
+  },
+  "origin": "owner-authorized personal skill snapshot",
+  "origin_skill_sha256": "a6ade29c75ceee066c21748aeb2944fbf180c1c78b7797f3804c390c7d1c7a5a",
+  "imported_at": "2026-10-11",
+  "hash_normalization": "UTF-8 text with LF newlines",
+  "license": "No open-source redistribution license selected; upstream terms remain separate",
+  "modifications": [
+    "Public edition omits private observations, source-media details and local paths",
+    "Generic references replace unavailable private reports; dated price examples are labeled"
+  ],
+  "files_sha256": {
+    "agents/openai.yaml": "706a23b80cae4e2ae86131e462da895cdca425dbb73d8d82b72256745e2e5535",
+    "references/benchmark-and-qa.md": "a1807006a71df8fce51717485bc90a5f4051795a16432fe53320315ed6232503",
+    "references/creative-development.md": "8fffc332f25d1c04b32d5bcc4ed0645a57c5620c238ac414bd47d316fc68930e",
+    "references/empirical-findings.md": "951cffec7ae498f72948893621031b6b10124797ec6448172e8d514f80938411",
+    "references/h3-fal-contract.md": "eef68569c721d91210f44c6e90789ab320e6909e0cc18d74aed077fac17f185f",
+    "references/lora-derived-knowledge.md": "45449ceabb1894516e4f3254bcd9823c958f0cc6a5356876d03854110773e8aa",
+    "references/research-and-evidence.md": "4673e6b112a3049d6c9034201a115c34486c2ae78db22746045bf3067b01417e",
+    "references/rights-and-publication.md": "25c137a35dcd27ea2a14a8fd748aebf7f3faaf068da6ed0895233ed96a6f6f75",
+    "references/sources.md": "cc339afbb8dcdde2425f94ab1096007cc367ce60646eec828f45b148021b0029",
+    "scripts/h3_workflow.py": "327610ad1c49baed5fd3c140e540e91253f51bb6ac08f1c1faddee8dd870165f",
+    "scripts/test_h3_workflow.py": "6f6b5a6853dc3bf0b2e7427533b53284571f20fdfde7371861583516a7a7ea27",
+    "SKILL.md": "a6ade29c75ceee066c21748aeb2944fbf180c1c78b7797f3804c390c7d1c7a5a"
+  }
+}

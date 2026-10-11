@@ -11,3 +11,6 @@ Thumbs.db
 sources_raw/
 sources_unzipped/
 review/
+__pycache__/
+*.pyc
+.test-artifacts/
