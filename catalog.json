@@ -3,5 +3,492 @@
   "repository": "yairdash/ai-skills",
   "visibility": "public",
   "update_policy": "on-request",
-  "entries": []
+  "entries": [
+    {
+      "id": "haowjy-story-architecture",
+      "name": "story-architecture",
+      "category": "כתיבה וסיפור",
+      "description_he": "מבנה עלילה וקצב מסצנה ועד סדרה",
+      "kind": "external",
+      "source": {
+        "repository": "haowjy/creative-writing-skills",
+        "path": "skills/story-architecture",
+        "url": "https://github.com/haowjy/creative-writing-skills/tree/5b12a118445619be5ef4591440a47baf6cacc662/skills/story-architecture",
+        "revision": "5b12a118445619be5ef4591440a47baf6cacc662",
+        "skill_blob_sha": "461ddc7d5250d76d46780af039a35b8989fa05e4",
+        "status": "historical-snapshot"
+      },
+      "requirements": [
+        "הוראות טקסט; חלק מההפניות קשורות לחבילת הכתיבה"
+      ],
+      "compatibility": {
+        "desktop": "assessed",
+        "web": "untested",
+        "mobile": "untested"
+      },
+      "review_status": "content-reviewed",
+      "reviewed_at": "2026-10-11",
+      "license": "upstream; not redistributed",
+      "notes": "הסקיל הישן אינו זמין בגרסה הנוכחית; הקישור שומר את הגרסה ההיסטורית שאומתה. עדכון מחייב בדיקת החבילה החדשה."
+    },
+    {
+      "id": "haowjy-prose-writing",
+      "name": "prose-writing",
+      "category": "כתיבה וסיפור",
+      "description_he": "כתיבת פרוזה בהתאם לקול ולמטרת הסצנה",
+      "kind": "external",
+      "source": {
+        "repository": "haowjy/creative-writing-skills",
+        "path": "skills/prose-writing",
+        "url": "https://github.com/haowjy/creative-writing-skills/tree/5b12a118445619be5ef4591440a47baf6cacc662/skills/prose-writing",
+        "revision": "5b12a118445619be5ef4591440a47baf6cacc662",
+        "skill_blob_sha": "b84cea0a58df3f4666097eb7acf239d60328f208",
+        "status": "historical-snapshot"
+      },
+      "requirements": [
+        "הקשר וסגנון; לבדוק הפניות לסקילס משלימים"
+      ],
+      "compatibility": {
+        "desktop": "assessed",
+        "web": "untested",
+        "mobile": "untested"
+      },
+      "review_status": "content-reviewed",
+      "reviewed_at": "2026-10-11",
+      "license": "upstream; not redistributed",
+      "notes": "הסקיל הישן אינו זמין בגרסה הנוכחית; הקישור שומר את הגרסה ההיסטורית שאומתה. עדכון מחייב בדיקת החבילה החדשה."
+    },
+    {
+      "id": "haowjy-prose-critique",
+      "name": "prose-critique",
+      "category": "כתיבה וסיפור",
+      "description_he": "ביקורת פרוזה והצעות תיקון",
+      "kind": "external",
+      "source": {
+        "repository": "haowjy/creative-writing-skills",
+        "path": "skills/prose-critique",
+        "url": "https://github.com/haowjy/creative-writing-skills/tree/5b12a118445619be5ef4591440a47baf6cacc662/skills/prose-critique",
+        "revision": "5b12a118445619be5ef4591440a47baf6cacc662",
+        "skill_blob_sha": "6e520a8f5ace302f2191644b619fbbd3a1b0bc87",
+        "status": "historical-snapshot"
+      },
+      "requirements": [
+        "טקסט לביקורת; לבדוק הוראות משלימות"
+      ],
+      "compatibility": {
+        "desktop": "assessed",
+        "web": "untested",
+        "mobile": "untested"
+      },
+      "review_status": "content-reviewed",
+      "reviewed_at": "2026-10-11",
+      "license": "upstream; not redistributed",
+      "notes": "הסקיל הישן אינו זמין בגרסה הנוכחית; הקישור שומר את הגרסה ההיסטורית שאומתה. עדכון מחייב בדיקת החבילה החדשה."
+    },
+    {
+      "id": "haowjy-character-voice",
+      "name": "character-voice",
+      "category": "כתיבה וסיפור",
+      "description_he": "פיתוח קול מובחן לדמויות",
+      "kind": "external",
+      "source": {
+        "repository": "haowjy/creative-writing-skills",
+        "path": "skills/character-voice",
+        "url": "https://github.com/haowjy/creative-writing-skills/tree/5b12a118445619be5ef4591440a47baf6cacc662/skills/character-voice",
+        "revision": "5b12a118445619be5ef4591440a47baf6cacc662",
+        "skill_blob_sha": "e13ff420e387ae65610d7736872c6c908e786f30",
+        "status": "historical-snapshot"
+      },
+      "requirements": [
+        "מידע על הדמות ודוגמאות קול"
+      ],
+      "compatibility": {
+        "desktop": "assessed",
+        "web": "untested",
+        "mobile": "untested"
+      },
+      "review_status": "content-reviewed",
+      "reviewed_at": "2026-10-11",
+      "license": "upstream; not redistributed",
+      "notes": "הסקיל הישן אינו זמין בגרסה הנוכחית; הקישור שומר את הגרסה ההיסטורית שאומתה. עדכון מחייב בדיקת החבילה החדשה."
+    },
+    {
+      "id": "danjdewhurst-worldbuilding",
+      "name": "worldbuilding",
+      "category": "כתיבה וסיפור",
+      "description_he": "בניית עולם ושמירת חוקי העולם",
+      "kind": "external",
+      "source": {
+        "repository": "danjdewhurst/story-skills",
+        "path": "skills/worldbuilding",
+        "url": "https://github.com/danjdewhurst/story-skills/tree/9a54e04b210c0adb9ac9807fcc876eda1d27e9f6/skills/worldbuilding",
+        "revision": "9a54e04b210c0adb9ac9807fcc876eda1d27e9f6",
+        "skill_blob_sha": "1b52c2c19d3ae6b35cd91cb1d6d3a249d9ab0a7b",
+        "status": "current-at-review"
+      },
+      "requirements": [
+        "פרויקט story-init וגישה לקבצי הפרויקט"
+      ],
+      "compatibility": {
+        "desktop": "assessed",
+        "web": "untested",
+        "mobile": "untested"
+      },
+      "review_status": "content-reviewed",
+      "reviewed_at": "2026-10-11",
+      "license": "upstream; not redistributed",
+      "notes": "קישור לגרסת מקור מאומתת; עדכונים נבדקים לפי בקשה."
+    },
+    {
+      "id": "danjdewhurst-revision-continuity",
+      "name": "revision-continuity",
+      "category": "כתיבה וסיפור",
+      "description_he": "תיקון סתירות ושמירת רציפות",
+      "kind": "external",
+      "source": {
+        "repository": "danjdewhurst/story-skills",
+        "path": "skills/revision-continuity",
+        "url": "https://github.com/danjdewhurst/story-skills/tree/9a54e04b210c0adb9ac9807fcc876eda1d27e9f6/skills/revision-continuity",
+        "revision": "9a54e04b210c0adb9ac9807fcc876eda1d27e9f6",
+        "skill_blob_sha": "e3bcf5db58e675faf13cc39d84e8ca529657c602",
+        "status": "current-at-review"
+      },
+      "requirements": [
+        "פרויקט סיפור; story-maintenance וכלי קבצים"
+      ],
+      "compatibility": {
+        "desktop": "assessed",
+        "web": "untested",
+        "mobile": "untested"
+      },
+      "review_status": "content-reviewed",
+      "reviewed_at": "2026-10-11",
+      "license": "upstream; not redistributed",
+      "notes": "קישור לגרסת מקור מאומתת; עדכונים נבדקים לפי בקשה."
+    },
+    {
+      "id": "samuraigpt-muapi-storyboard",
+      "name": "muapi-storyboard",
+      "category": "תמונה ועיצוב",
+      "description_he": "יצירת פריימים לרצף סיפורי",
+      "kind": "external",
+      "source": {
+        "repository": "SamurAIGPT/Generative-Media-Skills",
+        "path": "library/visual/storyboard",
+        "url": "https://github.com/SamurAIGPT/Generative-Media-Skills/tree/66b55e2a27ee554667ec255782922bae72882cc8/library/visual/storyboard",
+        "revision": "66b55e2a27ee554667ec255782922bae72882cc8",
+        "skill_blob_sha": "202839c198076231f4c7218f272bc919cc9fbc4b",
+        "status": "current-at-review"
+      },
+      "requirements": [
+        "muapi CLI ומפתח MUAPI_API_KEY; יצירת מדיה עשויה לעלות כסף"
+      ],
+      "compatibility": {
+        "desktop": "assessed",
+        "web": "untested",
+        "mobile": "untested"
+      },
+      "review_status": "content-reviewed",
+      "reviewed_at": "2026-10-11",
+      "license": "upstream; not redistributed",
+      "notes": "קישור לגרסת מקור מאומתת; עדכונים נבדקים לפי בקשה."
+    },
+    {
+      "id": "samuraigpt-muapi-youtube-thumbnail",
+      "name": "muapi-youtube-thumbnail",
+      "category": "תמונה ועיצוב",
+      "description_he": "יצירת תמונה ממוזערת ליוטיוב",
+      "kind": "external",
+      "source": {
+        "repository": "SamurAIGPT/Generative-Media-Skills",
+        "path": "library/visual/youtube-thumbnail",
+        "url": "https://github.com/SamurAIGPT/Generative-Media-Skills/tree/66b55e2a27ee554667ec255782922bae72882cc8/library/visual/youtube-thumbnail",
+        "revision": "66b55e2a27ee554667ec255782922bae72882cc8",
+        "skill_blob_sha": "d63ccc36a3284a0d61c4832469c9e54b30f61c38",
+        "status": "current-at-review"
+      },
+      "requirements": [
+        "muapi CLI ומפתח API"
+      ],
+      "compatibility": {
+        "desktop": "assessed",
+        "web": "untested",
+        "mobile": "untested"
+      },
+      "review_status": "content-reviewed",
+      "reviewed_at": "2026-10-11",
+      "license": "upstream; not redistributed",
+      "notes": "קישור לגרסת מקור מאומתת; עדכונים נבדקים לפי בקשה."
+    },
+    {
+      "id": "samuraigpt-muapi-design-guide",
+      "name": "muapi-design-guide",
+      "category": "תמונה ועיצוב",
+      "description_he": "הפקת שפה חזותית ומדריך עיצוב",
+      "kind": "external",
+      "source": {
+        "repository": "SamurAIGPT/Generative-Media-Skills",
+        "path": "library/visual/design-guide",
+        "url": "https://github.com/SamurAIGPT/Generative-Media-Skills/tree/66b55e2a27ee554667ec255782922bae72882cc8/library/visual/design-guide",
+        "revision": "66b55e2a27ee554667ec255782922bae72882cc8",
+        "skill_blob_sha": "4b02415e3bd231a6d27d55f0f16c665f2d4b2d63",
+        "status": "current-at-review"
+      },
+      "requirements": [
+        "לבדוק שירותי muapi והקבצים הנלווים"
+      ],
+      "compatibility": {
+        "desktop": "assessed",
+        "web": "untested",
+        "mobile": "untested"
+      },
+      "review_status": "content-reviewed",
+      "reviewed_at": "2026-10-11",
+      "license": "upstream; not redistributed",
+      "notes": "קישור לגרסת מקור מאומתת; עדכונים נבדקים לפי בקשה."
+    },
+    {
+      "id": "samuraigpt-muapi-cinema-director",
+      "name": "muapi-cinema-director",
+      "category": "וידאו ואנימציה",
+      "description_he": "תרגום כוונת בימוי לשוטים וליצירת וידאו",
+      "kind": "external",
+      "source": {
+        "repository": "SamurAIGPT/Generative-Media-Skills",
+        "path": "library/motion/cinema-director",
+        "url": "https://github.com/SamurAIGPT/Generative-Media-Skills/tree/66b55e2a27ee554667ec255782922bae72882cc8/library/motion/cinema-director",
+        "revision": "66b55e2a27ee554667ec255782922bae72882cc8",
+        "skill_blob_sha": "3bf978153410a18a52765adf86ca58244fdd83bf",
+        "status": "current-at-review"
+      },
+      "requirements": [
+        "Bash, muapi וקובצי core משותפים מחוץ לתיקיית הסקיל"
+      ],
+      "compatibility": {
+        "desktop": "assessed",
+        "web": "untested",
+        "mobile": "untested"
+      },
+      "review_status": "content-reviewed",
+      "reviewed_at": "2026-10-11",
+      "license": "upstream; not redistributed",
+      "notes": "קישור לגרסת מקור מאומתת; עדכונים נבדקים לפי בקשה."
+    },
+    {
+      "id": "heygen-com-website-to-video",
+      "name": "website-to-video",
+      "category": "וידאו ואנימציה",
+      "description_he": "המרת עיצוב אתר לקומפוזיציית וידאו",
+      "kind": "external",
+      "source": {
+        "repository": "heygen-com/hyperframes",
+        "path": "skills/website-to-video",
+        "url": "https://github.com/heygen-com/hyperframes/tree/ca69b6b0809019b1d835b7abb14f5eed99e96634/skills/website-to-video",
+        "revision": "ca69b6b0809019b1d835b7abb14f5eed99e96634",
+        "skill_blob_sha": "610fadc078d08c45e9836acf18dbe7cfb07a0da9",
+        "status": "historical-snapshot"
+      },
+      "requirements": [
+        "Node, HyperFrames, דפדפן וסקילס ליבה משלימים"
+      ],
+      "compatibility": {
+        "desktop": "assessed",
+        "web": "untested",
+        "mobile": "untested"
+      },
+      "review_status": "content-reviewed",
+      "reviewed_at": "2026-10-11",
+      "license": "upstream; not redistributed",
+      "notes": "הסקיל הישן אינו זמין בגרסה הנוכחית; הקישור שומר את הגרסה ההיסטורית שאומתה. עדכון מחייב בדיקת החבילה החדשה."
+    },
+    {
+      "id": "heygen-com-slideshow",
+      "name": "slideshow",
+      "category": "וידאו ואנימציה",
+      "description_he": "מצגת אינטראקטיבית במנוע HyperFrames",
+      "kind": "external",
+      "source": {
+        "repository": "heygen-com/hyperframes",
+        "path": "skills/slideshow",
+        "url": "https://github.com/heygen-com/hyperframes/tree/b211fc7cb845c6838cbdb1860506c2fda2804787/skills/slideshow",
+        "revision": "b211fc7cb845c6838cbdb1860506c2fda2804787",
+        "skill_blob_sha": "42cd47c28a1ee1f721426cd7465233e503e919ef",
+        "status": "current-at-review"
+      },
+      "requirements": [
+        "HyperFrames, GSAP ו־hyperframes-core"
+      ],
+      "compatibility": {
+        "desktop": "assessed",
+        "web": "untested",
+        "mobile": "untested"
+      },
+      "review_status": "content-reviewed",
+      "reviewed_at": "2026-10-11",
+      "license": "upstream; not redistributed",
+      "notes": "קישור לגרסת מקור מאומתת; עדכונים נבדקים לפי בקשה."
+    },
+    {
+      "id": "bytedance-music-generation",
+      "name": "music-generation",
+      "category": "אודיו",
+      "description_he": "יצירת מוזיקה ושירים מתיאור ומילים",
+      "kind": "external",
+      "source": {
+        "repository": "bytedance/deer-flow",
+        "path": "skills/public/music-generation",
+        "url": "https://github.com/bytedance/deer-flow/tree/91a88e08e66f886e57fa9eccdc1f4ceb9f870973/skills/public/music-generation",
+        "revision": "91a88e08e66f886e57fa9eccdc1f4ceb9f870973",
+        "skill_blob_sha": "1310196317f13400908b8b2c4e8f1019f03a069c",
+        "status": "current-at-review"
+      },
+      "requirements": [
+        "Python, MINIMAX_API_KEY; נתיבי Linux וכלי תוצרים של DeerFlow דורשים התאמה"
+      ],
+      "compatibility": {
+        "desktop": "assessed",
+        "web": "untested",
+        "mobile": "untested"
+      },
+      "review_status": "content-reviewed",
+      "reviewed_at": "2026-10-11",
+      "license": "upstream; not redistributed",
+      "notes": "קישור לגרסת מקור מאומתת; עדכונים נבדקים לפי בקשה."
+    },
+    {
+      "id": "bytedance-image-generation",
+      "name": "image-generation",
+      "category": "תמונה ועיצוב",
+      "description_he": "יצירת תמונות בתהליך מובנה",
+      "kind": "external",
+      "source": {
+        "repository": "bytedance/deer-flow",
+        "path": "skills/public/image-generation",
+        "url": "https://github.com/bytedance/deer-flow/tree/91a88e08e66f886e57fa9eccdc1f4ceb9f870973/skills/public/image-generation",
+        "revision": "91a88e08e66f886e57fa9eccdc1f4ceb9f870973",
+        "skill_blob_sha": "2676e119e02f4de56ffa4b3dcb678347f8322499",
+        "status": "current-at-review"
+      },
+      "requirements": [
+        "סקריפטים, שירותי יצירה וסביבת DeerFlow; לבדוק התאמת Windows"
+      ],
+      "compatibility": {
+        "desktop": "assessed",
+        "web": "untested",
+        "mobile": "untested"
+      },
+      "review_status": "content-reviewed",
+      "reviewed_at": "2026-10-11",
+      "license": "upstream; not redistributed",
+      "notes": "קישור לגרסת מקור מאומתת; עדכונים נבדקים לפי בקשה."
+    },
+    {
+      "id": "bytedance-deep-research",
+      "name": "deep-research",
+      "category": "מחקר וניתוח",
+      "description_he": "מחקר רב שלבי ואיסוף מקורות",
+      "kind": "external",
+      "source": {
+        "repository": "bytedance/deer-flow",
+        "path": "skills/public/deep-research",
+        "url": "https://github.com/bytedance/deer-flow/tree/91a88e08e66f886e57fa9eccdc1f4ceb9f870973/skills/public/deep-research",
+        "revision": "91a88e08e66f886e57fa9eccdc1f4ceb9f870973",
+        "skill_blob_sha": "55f1481c8e5feacaa9bce267a4724e10bf0ad8fa",
+        "status": "current-at-review"
+      },
+      "requirements": [
+        "כלי חיפוש וגלישה של הסוכן; לבדוק תלות ב־DeerFlow"
+      ],
+      "compatibility": {
+        "desktop": "assessed",
+        "web": "untested",
+        "mobile": "untested"
+      },
+      "review_status": "content-reviewed",
+      "reviewed_at": "2026-10-11",
+      "license": "upstream; not redistributed",
+      "notes": "קישור לגרסת מקור מאומתת; עדכונים נבדקים לפי בקשה."
+    },
+    {
+      "id": "bytedance-data-analysis",
+      "name": "data-analysis",
+      "category": "מחקר וניתוח",
+      "description_he": "ניתוח נתונים והצגת תוצאות",
+      "kind": "external",
+      "source": {
+        "repository": "bytedance/deer-flow",
+        "path": "skills/public/data-analysis",
+        "url": "https://github.com/bytedance/deer-flow/tree/91a88e08e66f886e57fa9eccdc1f4ceb9f870973/skills/public/data-analysis",
+        "revision": "91a88e08e66f886e57fa9eccdc1f4ceb9f870973",
+        "skill_blob_sha": "4afc92819e0fb48549c316c895964c30198e25c5",
+        "status": "current-at-review"
+      },
+      "requirements": [
+        "סביבת נתונים, קבצים וספריות Python לפי המשימה"
+      ],
+      "compatibility": {
+        "desktop": "assessed",
+        "web": "untested",
+        "mobile": "untested"
+      },
+      "review_status": "content-reviewed",
+      "reviewed_at": "2026-10-11",
+      "license": "upstream; not redistributed",
+      "notes": "קישור לגרסת מקור מאומתת; עדכונים נבדקים לפי בקשה."
+    },
+    {
+      "id": "haowjy-project-setup",
+      "name": "project-setup",
+      "category": "ניהול תהליכים",
+      "description_he": "הקמת סביבת פרויקט כתיבה",
+      "kind": "external",
+      "source": {
+        "repository": "haowjy/creative-writing-skills",
+        "path": "cw/skills/project-setup",
+        "url": "https://github.com/haowjy/creative-writing-skills/tree/254d4bb9b3b2e50a47def955b6461c06057eedae/cw/skills/project-setup",
+        "revision": "254d4bb9b3b2e50a47def955b6461c06057eedae",
+        "skill_blob_sha": "e7733bea8fb6f2decf064c03395684af845e581d",
+        "status": "current-at-review"
+      },
+      "requirements": [
+        "כלי קבצים וחבילת creative-writing-skills"
+      ],
+      "compatibility": {
+        "desktop": "assessed",
+        "web": "untested",
+        "mobile": "untested"
+      },
+      "review_status": "content-reviewed",
+      "reviewed_at": "2026-10-11",
+      "license": "upstream; not redistributed",
+      "notes": "קישור לגרסת מקור מאומתת; עדכונים נבדקים לפי בקשה."
+    },
+    {
+      "id": "bytedance-skill-creator",
+      "name": "skill-creator",
+      "category": "ניהול תהליכים",
+      "description_he": "יצירה ושיפור של סקילס",
+      "kind": "external",
+      "source": {
+        "repository": "bytedance/deer-flow",
+        "path": "skills/public/skill-creator",
+        "url": "https://github.com/bytedance/deer-flow/tree/91a88e08e66f886e57fa9eccdc1f4ceb9f870973/skills/public/skill-creator",
+        "revision": "91a88e08e66f886e57fa9eccdc1f4ceb9f870973",
+        "skill_blob_sha": "99e953b55caa9bdf4c3223ca3d0f08bd5198fd6c",
+        "status": "current-at-review"
+      },
+      "requirements": [
+        "כלי קבצים וסקריפטים; להשוות לסקיל היוצר שכבר מותקן"
+      ],
+      "compatibility": {
+        "desktop": "assessed",
+        "web": "untested",
+        "mobile": "untested"
+      },
+      "review_status": "content-reviewed",
+      "reviewed_at": "2026-10-11",
+      "license": "upstream; not redistributed",
+      "notes": "קישור לגרסת מקור מאומתת; עדכונים נבדקים לפי בקשה."
+    }
+  ]
 }

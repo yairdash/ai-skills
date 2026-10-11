@@ -30,6 +30,7 @@ export function validate(root) {
   assert.ok(!url.username&&!url.password&&!url.search&&!url.hash,'Credential-free source URL required');
   assert.ok(url.pathname.startsWith(`/${e.source.repository}/tree/`),'Source URL must identify repository and tree path');
   assert.ok(decodeURIComponent(url.pathname).endsWith('/'+e.source.path),'Source URL and path must agree');
+  if(e.source.revision)assert.equal(decodeURIComponent(url.pathname),`/${e.source.repository}/tree/${e.source.revision}/${e.source.path}`,'Source URL must match pinned revision');
   assert.ok(!url.pathname.split('/').some(p=>p==='..'),'Invalid source URL');
   if(e.kind==='hosted'){
    assert.match(e.path,/^skills\/[a-z0-9]+(?:-[a-z0-9]+)*$/,'Invalid hosted path');
@@ -51,11 +52,11 @@ export function render(catalog){
  const lines=['# קטלוג סקילס','','הקובץ נוצר מ־catalog.json. קישורים חיצוניים מותקנים ממקורם; תאימות מסומנת כהערכה עד שנבדקה בפועל.',''];
  if(!catalog.entries.length)lines.push('טרם נבחרו סקילס לקטלוג. הוראות ההתקנה מוכנות לשימוש לאחר בחירת האוסף הראשון.');
  for(const category of [...new Set(catalog.entries.map(e=>e.category))]){
-  lines.push(`## ${category}`,'','| סקיל | שימוש | מיקום | דרישות | בדיקה |','|---|---|---|---|---|');
-  for(const e of catalog.entries.filter(e=>e.category===category))lines.push(`| [${esc(e.name)}](${e.kind==='hosted'?e.path:e.source.url}) | ${esc(e.description_he)} | ${e.kind==='hosted'?'במאגר':'מקור חיצוני'} | ${esc(e.requirements.join('; '))} | ${e.review_status==='runtime-tested'?'נבדק בהפעלה':'סקירת תוכן בלבד'} |`);
+  lines.push(`## ${category}`,'','| סקיל | שימוש | מיקום וגרסה | דרישות | בדיקה |','|---|---|---|---|---|');
+  for(const e of catalog.entries.filter(e=>e.category===category))lines.push(`| [${esc(e.name)}](${e.kind==='hosted'?e.path:e.source.url}) | ${esc(e.description_he)} | ${e.kind==='hosted'?'במאגר':e.source.status==='historical-snapshot'?'מקור חיצוני — גרסה היסטורית':'מקור חיצוני — גרסה מאומתת'} | ${esc(e.requirements.join('; '))} | ${e.review_status==='runtime-tested'?'נבדק בהפעלה':'סקירת תוכן בלבד'} |`);
   lines.push('');
  }
- return lines.join('\n')+'\n';
+ return lines.join('\n').trimEnd()+'\n';
 }
 if(process.argv[1]&&path.resolve(process.argv[1])===fileURLToPath(import.meta.url)){
  const root=path.resolve(import.meta.dirname,'..');
