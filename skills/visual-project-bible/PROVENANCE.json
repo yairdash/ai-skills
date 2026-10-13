@@ -1,0 +1,41 @@
+{
+  "source": {
+    "repository": "yairdash/ai-skills",
+    "path": "skills/visual-project-bible",
+    "url": "https://github.com/yairdash/ai-skills/tree/main/skills/visual-project-bible",
+    "revision": null,
+    "status": "maintained-here"
+  },
+  "origin": "Original skill authored for the repository at the owner’s request; public publication authorized",
+  "version": "1.0.0",
+  "created_at": "2026-10-14",
+  "hash_normalization": "UTF-8 text with LF newlines",
+  "license": "No open-source redistribution license selected; third-party reference rights remain separate",
+  "modifications": [
+    "Initial original implementation: provider-neutral foundation asset planning before storyboards and opening frames",
+    "Includes purpose-based asset selection, reusable bible/register templates, approval and version handoff",
+    "No third-party code, templates or media copied into this package"
+  ],
+  "research_links": [
+    {
+      "url": "https://github.com/snowfrost/skill-movie/blob/main/minimum-visual-bible/SKILL.md",
+      "note": "Related visual-bible workflow reviewed; broader production and course context. Not installed or bundled."
+    },
+    {
+      "url": "https://github.com/p4inz-code/3d-ref-skills",
+      "note": "Related 3D pre-production reference pack surveyed. Not installed or bundled."
+    },
+    {
+      "url": "https://github.com/A0339x/ai-film-pipeline",
+      "note": "Related integrated filmmaking pipeline surveyed. Not installed or bundled."
+    }
+  ],
+  "files_sha256": {
+    "agents/openai.yaml": "dd2b8e8de5a27a766127838b4e5ca41f56c74e614eddbf2201356ddc87d26be9",
+    "assets/image-register-template.md": "c1171bb7c741cd698894800bd907a03aea138c5910bcd8dbdd9b6099969f7afd",
+    "assets/visual-bible-template.md": "bb163f60b7a575fef1c2399cb5fc0ca8aa9cdb8c8926d967ec91da2c5d942a27",
+    "references/asset-selection.md": "3f17e06e4e6ade239be79103a5dcd96e0802e69bb674a3b6cf5e63e002b775cd",
+    "references/prompts-and-review.md": "f62e9b578521b9f867ace93f8cb54ca6f327aedb76e5e05b70174ece5fdbbea9",
+    "SKILL.md": "4a8a39f7bbbded43681457f7359a3e613418340336e8720d2e7a8d0bbe0d08f6"
+  }
+}

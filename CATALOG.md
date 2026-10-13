@@ -25,6 +25,7 @@
 | [muapi-youtube-thumbnail](https://github.com/SamurAIGPT/Generative-Media-Skills/tree/66b55e2a27ee554667ec255782922bae72882cc8/library/visual/youtube-thumbnail) | יצירת תמונה ממוזערת ליוטיוב | מקור חיצוני — גרסה מאומתת | muapi CLI ומפתח API | סקירת תוכן בלבד |
 | [muapi-design-guide](https://github.com/SamurAIGPT/Generative-Media-Skills/tree/66b55e2a27ee554667ec255782922bae72882cc8/library/visual/design-guide) | הפקת שפה חזותית ומדריך עיצוב | מקור חיצוני — גרסה מאומתת | לבדוק שירותי muapi והקבצים הנלווים | סקירת תוכן בלבד |
 | [image-generation](https://github.com/bytedance/deer-flow/tree/91a88e08e66f886e57fa9eccdc1f4ceb9f870973/skills/public/image-generation) | יצירת תמונות בתהליך מובנה | מקור חיצוני — גרסה מאומתת | סקריפטים, שירותי יצירה וסביבת DeerFlow; לבדוק התאמת Windows | סקירת תוכן בלבד |
+| [visual-project-bible](skills/visual-project-bible) | בייבל חזותי ותכנון תמונות בסיס לדמויות, לוקיישנים, אביזרים וסגנון לפני סטוריבורד ופריימים | במאגר | הוראות ותבניות טקסט עצמאיות; אין צורך בחשבון מודל לתכנון; לבדיקת תמונות נדרשת יכולת צפייה; יצירת תמונות רק לפי בקשה ובכלי זמין | סקירת תוכן בלבד |
 
 ## וידאו ואנימציה
 

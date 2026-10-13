@@ -1,0 +1,6 @@
+interface:
+  display_name: "Visual Project Bible"
+  short_description: "Plan visual bibles and essential reference images"
+  default_prompt: "Use $visual-project-bible to plan my project's characters, locations, props and essential reference images before storyboards or opening frames."
+policy:
+  allow_implicit_invocation: true

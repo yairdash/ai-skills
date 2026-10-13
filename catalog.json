@@ -1276,6 +1276,34 @@
       "reviewed_at": "2026-10-13",
       "license": "No open-source redistribution license selected; provider terms and third-party rights remain separate",
       "notes": "Public adaptation; complete included references. Installation tested separately from media generation."
+    },
+    {
+      "id": "yairdash-visual-project-bible",
+      "name": "visual-project-bible",
+      "category": "תמונה ועיצוב",
+      "description_he": "בייבל חזותי ותכנון תמונות בסיס לדמויות, לוקיישנים, אביזרים וסגנון לפני סטוריבורד ופריימים",
+      "kind": "hosted",
+      "path": "skills/visual-project-bible",
+      "source": {
+        "repository": "yairdash/ai-skills",
+        "path": "skills/visual-project-bible",
+        "url": "https://github.com/yairdash/ai-skills/tree/main/skills/visual-project-bible",
+        "revision": null,
+        "status": "maintained-here"
+      },
+      "requirements": [
+        "הוראות ותבניות טקסט עצמאיות; אין צורך בחשבון מודל לתכנון",
+        "לבדיקת תמונות נדרשת יכולת צפייה; יצירת תמונות רק לפי בקשה ובכלי זמין"
+      ],
+      "compatibility": {
+        "desktop": "assessed",
+        "web": "untested",
+        "mobile": "untested"
+      },
+      "review_status": "content-reviewed",
+      "reviewed_at": "2026-10-14",
+      "license": "No open-source redistribution license selected; third-party reference rights remain separate",
+      "notes": "Version 1.0.0. Original provider-neutral skill. Installation and package integrity tested separately; no image generation or Work/mobile runtime claim."
     }
   ]
 }
