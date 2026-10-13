@@ -1,0 +1,22 @@
+{
+  "source": {
+    "repository": "yairdash/ai-skills",
+    "path": "skills/fal-seedance-2-5",
+    "url": "https://github.com/yairdash/ai-skills/tree/main/skills/fal-seedance-2-5",
+    "revision": null,
+    "status": "maintained-here"
+  },
+  "origin": "Owner-provided local skill; public adaptation authorized by owner",
+  "origin_file": "seedance-2-5.md",
+  "origin_sha256": "5240896446f335ac1fd633e8c690276c19bb9feb90148c1bd4375a7425346e99",
+  "imported_at": "2026-10-13",
+  "hash_normalization": "UTF-8 text with LF newlines",
+  "license": "No open-source redistribution license selected; provider terms and third-party rights remain separate",
+  "modifications": [
+    "Updated task selection, 1080p and route-specific seed support against fal documentation",
+    "Added live-schema source links and optional field guidance; no automatic draft/final pair"
+  ],
+  "files_sha256": {
+    "SKILL.md": "aaa1a494dcbef68a4f7158ddde6bf564fc168d578ec44e7edc224e6c5817d8e0"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "source": {
+    "repository": "yairdash/ai-skills",
+    "path": "skills/wan-3-filmmaking",
+    "url": "https://github.com/yairdash/ai-skills/tree/main/skills/wan-3-filmmaking",
+    "revision": null,
+    "status": "maintained-here"
+  },
+  "origin": "Owner-provided local skill; public adaptation authorized by owner",
+  "origin_file": "wan-3-filmmaking_2026-09-03.zip",
+  "origin_sha256": "dd29fb338d1c92408b3f5809601665495bc6403587b52f1e12e06bb308edf9ec",
+  "imported_at": "2026-10-13",
+  "hash_normalization": "UTF-8 text with LF newlines",
+  "license": "No open-source redistribution license selected; provider terms and third-party rights remain separate",
+  "modifications": [
+    "Corrected conflicting extension example and clarified before/after boundary semantics",
+    "Made low-cost proof optional and explicitly authorized",
+    "Dated technical notes and retained provider-specific scope"
+  ],
+  "files_sha256": {
+    "agents/openai.yaml": "b7cccbd24f35cbcd6f62a6da0485ac38c497ad9fb54a477ea39b1d5d7f868e75",
+    "references/capability-map.md": "4e1be024fd9635bff2b25bddc042534067bc9161b8dd94aefbe67dbae62bf9ab",
+    "references/prompting-and-references.md": "782e6255c1060c90eaec28eb74d0358e31926ea6ec2edc7caa3eac7187f61289",
+    "references/storyboard-and-comic-to-video.md": "09442c2a0814db9b230758f494869487df90a292fe909810a242b74e1b742f6b",
+    "references/video-editing-and-continuity.md": "be2df55651450e902dd810a5b8555ce25b26f8294f6414afccd7175eb433a9eb",
+    "SKILL.md": "050dacf79742b2d8f80255b10af9d45a1cc4fd34972c9f4bc17d809e412ae07c"
+  }
+}

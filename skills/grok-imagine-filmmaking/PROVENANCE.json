@@ -1,0 +1,33 @@
+{
+  "source": {
+    "repository": "yairdash/ai-skills",
+    "path": "skills/grok-imagine-filmmaking",
+    "url": "https://github.com/yairdash/ai-skills/tree/main/skills/grok-imagine-filmmaking",
+    "revision": null,
+    "status": "maintained-here"
+  },
+  "origin": "Owner-provided local skill; public adaptation authorized by owner",
+  "origin_file": "grok-imagine-filmmaking_2026-08-24.zip",
+  "origin_sha256": "562c2b2b4cd11c12adf7d4393c5f6b8c96c6f2849f2ac6338301c943b6d595de",
+  "imported_at": "2026-10-13",
+  "hash_normalization": "UTF-8 text with LF newlines",
+  "license": "No open-source redistribution license selected; provider terms and third-party rights remain separate",
+  "modifications": [
+    "Updated dated capability notes against xAI documentation on 2026-10-13",
+    "Removed account-specific UI observation; corrected reference-plus-pinned-frame guidance",
+    "Added explicit prompt-only default and authorization boundary for media generation"
+  ],
+  "files_sha256": {
+    "agents/openai.yaml": "bdaa026d7fe93263589ee52c533b58847660754c97735a7898ec1cb885077863",
+    "assets/icon.svg": "e9301497fa98ef56aaca7ede0857b9a18dc06c34040f0679c609a6bf49b1d38b",
+    "references/canvas-agent-workflow.md": "0e5820adfe02bd205d867dfb63a06dc0b0351980cafaea1672535d7bc0118c2e",
+    "references/capabilities-and-version-check.md": "4766a59b499fd98afbeab167bf00ccfbef29412102eeda62bb1626b550af1ba8",
+    "references/continuity-and-sequences.md": "d99e1456f2ff0fded02797c76aac589c50da4e3d1f01ac13ea83fcf679ecfad2",
+    "references/finishing-qc-and-troubleshooting.md": "839b7a10744359ce558819c5375229927de6bcdeeb25de662fa5caac7ee7ba17",
+    "references/image-workflows.md": "8c3a8cff13026ac9685c6cf52b6f3152a00d31d48e0f791a50177e79ac4f1874",
+    "references/production-foundations.md": "1f0ceec69323582c7647a2f3dc072a0aa281e1c51b410c56332ee36c5973874a",
+    "references/project-assembly.md": "75ad4da8f39c3ac18d806b1c95647a2467848d1dc122f37576bd3b01b6435464",
+    "references/video-workflows.md": "50ae0c21d2f00f63f6565e75d837a6930baea875e27d22e25cdb3e720a12b210",
+    "SKILL.md": "b6ab9c74845a36372c3202267a282f72de88161c8f92c83af95703c1950d44d6"
+  }
+}

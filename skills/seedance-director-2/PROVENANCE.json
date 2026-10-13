@@ -1,0 +1,31 @@
+{
+  "source": {
+    "repository": "yairdash/ai-skills",
+    "path": "skills/seedance-director-2",
+    "url": "https://github.com/yairdash/ai-skills/tree/main/skills/seedance-director-2",
+    "revision": null,
+    "status": "maintained-here"
+  },
+  "origin": "Owner-provided local skill; public adaptation authorized by owner",
+  "origin_file": "seedance-director-2.02.zip",
+  "origin_sha256": "6901b7a73473de2c4fe1ba8810448520229f820e344a549653c08d973c722040",
+  "imported_at": "2026-10-13",
+  "hash_normalization": "UTF-8 text with LF newlines",
+  "license": "No open-source redistribution license selected; provider terms and third-party rights remain separate",
+  "modifications": [
+    "Public release 2.03 derived from owner-supplied 2.02; original installed copy unchanged",
+    "Removed course-specific routing and historical ZIPs from public distribution",
+    "Made image generation conditional on request; bounded retry and removed conflicting automatic render instructions"
+  ],
+  "files_sha256": {
+    "agents/openai.yaml": "b74d1e8dbfb664783bd929ff1f444627ee93256d439fd857b2747a5c8b61d8c4",
+    "assets/icon.svg": "7fbf187a9d38a8a699f93d3f220438d8097ef6000994e414444636828b0880a0",
+    "references/01_PreProduction_and_Story.md": "bae0baacd9242cc0a19069745b356f79386388fe324a43d118a8142c8d6e8935",
+    "references/02_Reference_and_Storyboard.md": "25a7dc26e25765ed9b0aca0873d18edb95b550ce693353c18d66e69b5fa5e44a",
+    "references/03_Video_Prompt_Craft.md": "807d589f9fec39fcc914a23787bea6a96daacfc29961498070712c7898aacd11",
+    "references/04_Seedance_25_Spec.md": "123fe24c469e66c0949d679df063e1710c0784966e448cc2de8852f7c72eb640",
+    "references/05_Experimental_Focused_Prompts.md": "2d2c737a66d31aaad0da2a6b74f28eed6d3437a1560ab600a32b78dc96f15713",
+    "references/06_Prop_Continuity_and_Physics.md": "b21c90456d789d404e775f307fae11735eaee566859263bd6604300f68d223f9",
+    "SKILL.md": "4ec8763379bdb9813c6fe0857d65f2b71c2b47e5bae1edd34cbb728e6d565f9b"
+  }
+}

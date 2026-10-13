@@ -1,0 +1,23 @@
+{
+  "source": {
+    "repository": "yairdash/ai-skills",
+    "path": "skills/x-video-packaging",
+    "url": "https://github.com/yairdash/ai-skills/tree/main/skills/x-video-packaging",
+    "revision": null,
+    "status": "maintained-here"
+  },
+  "origin": "Owner-provided local skill; public adaptation authorized by owner",
+  "origin_file": "gemini-code-skill grok.md",
+  "origin_sha256": "4238ed7e182c9b1ddd0c356296446e83c619c224dd8d3afef08035d2c23d29dd",
+  "imported_at": "2026-10-13",
+  "hash_normalization": "UTF-8 text with LF newlines",
+  "license": "No open-source redistribution license selected; provider terms and third-party rights remain separate",
+  "modifications": [
+    "Added discoverable skill frontmatter and stable name",
+    "Removed unsupported universal 200MB input limit",
+    "Clarified observed-versus-described evidence, no invented rendering claims, and draft-only output"
+  ],
+  "files_sha256": {
+    "SKILL.md": "536d04cab94743a9f79647f5b05cb8b03cb95809dbe67243a5002c87618cb87b"
+  }
+}

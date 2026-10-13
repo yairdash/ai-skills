@@ -1137,6 +1137,145 @@
       "reviewed_at": "2026-10-11",
       "license": "No open-source redistribution license selected; upstream terms remain separate",
       "notes": "Public edition omits private observations, source-media details and local paths; Generic references replace unavailable private reports; dated price examples are labeled"
+    },
+    {
+      "id": "yairdash-seedance-director-2",
+      "name": "seedance-director-2",
+      "category": "וידאו ואנימציה",
+      "description_he": "בימוי סצנות Seedance, משחק, מצלמה, רפרנסים והמשכיות",
+      "kind": "hosted",
+      "path": "skills/seedance-director-2",
+      "source": {
+        "repository": "yairdash/ai-skills",
+        "path": "skills/seedance-director-2",
+        "url": "https://github.com/yairdash/ai-skills/tree/main/skills/seedance-director-2",
+        "revision": null,
+        "status": "maintained-here"
+      },
+      "requirements": [
+        "הוראות טקסט; יצירת תמונות רפרנס רק לפי בקשה ובאמצעות כלי זמין",
+        "יצירת מדיה לא נבדקה; לפני הרצה יש לבדוק תיעוד וסכמת ספק עדכניים"
+      ],
+      "compatibility": {
+        "desktop": "assessed",
+        "web": "untested",
+        "mobile": "untested"
+      },
+      "review_status": "content-reviewed",
+      "reviewed_at": "2026-10-13",
+      "license": "No open-source redistribution license selected; provider terms and third-party rights remain separate",
+      "notes": "Public adaptation; complete included references. Installation tested separately from media generation."
+    },
+    {
+      "id": "yairdash-grok-imagine-filmmaking",
+      "name": "grok-imagine-filmmaking",
+      "category": "וידאו ואנימציה",
+      "description_he": "תכנון, כתיבת פרומפטים ואבחון הפקת תמונה ווידאו ב־Grok Imagine",
+      "kind": "hosted",
+      "path": "skills/grok-imagine-filmmaking",
+      "source": {
+        "repository": "yairdash/ai-skills",
+        "path": "skills/grok-imagine-filmmaking",
+        "url": "https://github.com/yairdash/ai-skills/tree/main/skills/grok-imagine-filmmaking",
+        "revision": null,
+        "status": "maintained-here"
+      },
+      "requirements": [
+        "גישה ל־Grok נדרשת ליצירה; יכולות הממשק משתנות לפי חשבון",
+        "יצירת מדיה לא נבדקה; לפני הרצה יש לבדוק תיעוד וסכמת ספק עדכניים"
+      ],
+      "compatibility": {
+        "desktop": "assessed",
+        "web": "untested",
+        "mobile": "untested"
+      },
+      "review_status": "content-reviewed",
+      "reviewed_at": "2026-10-13",
+      "license": "No open-source redistribution license selected; provider terms and third-party rights remain separate",
+      "notes": "Public adaptation; complete included references. Installation tested separately from media generation."
+    },
+    {
+      "id": "yairdash-wan-3-filmmaking",
+      "name": "wan-3-filmmaking",
+      "category": "וידאו ואנימציה",
+      "description_he": "תכנון Wan 3, רפרנסים, סטוריבורד, עריכה והארכת קליפים",
+      "kind": "hosted",
+      "path": "skills/wan-3-filmmaking",
+      "source": {
+        "repository": "yairdash/ai-skills",
+        "path": "skills/wan-3-filmmaking",
+        "url": "https://github.com/yairdash/ai-skills/tree/main/skills/wan-3-filmmaking",
+        "revision": null,
+        "status": "maintained-here"
+      },
+      "requirements": [
+        "גישה לספק Wan; פרטי API מתייחסים ל־Alibaba Model Studio",
+        "יצירת מדיה לא נבדקה; לפני הרצה יש לבדוק תיעוד וסכמת ספק עדכניים"
+      ],
+      "compatibility": {
+        "desktop": "assessed",
+        "web": "untested",
+        "mobile": "untested"
+      },
+      "review_status": "content-reviewed",
+      "reviewed_at": "2026-10-13",
+      "license": "No open-source redistribution license selected; provider terms and third-party rights remain separate",
+      "notes": "Public adaptation; complete included references. Installation tested separately from media generation."
+    },
+    {
+      "id": "yairdash-fal-seedance-2-5",
+      "name": "fal-seedance-2-5",
+      "category": "וידאו ואנימציה",
+      "description_he": "פרומפטים ובקשות fal ל־Seedance 2.5 עם רפרנסים מסודרים",
+      "kind": "hosted",
+      "path": "skills/fal-seedance-2-5",
+      "source": {
+        "repository": "yairdash/ai-skills",
+        "path": "skills/fal-seedance-2-5",
+        "url": "https://github.com/yairdash/ai-skills/tree/main/skills/fal-seedance-2-5",
+        "revision": null,
+        "status": "maintained-here"
+      },
+      "requirements": [
+        "לכתיבה אין צורך במפתח; להרצה נדרשים גישת fal, תשלום והרשאה",
+        "יצירת מדיה לא נבדקה; לפני הרצה יש לבדוק תיעוד וסכמת ספק עדכניים"
+      ],
+      "compatibility": {
+        "desktop": "assessed",
+        "web": "untested",
+        "mobile": "untested"
+      },
+      "review_status": "content-reviewed",
+      "reviewed_at": "2026-10-13",
+      "license": "No open-source redistribution license selected; provider terms and third-party rights remain separate",
+      "notes": "Public adaptation; complete included references. Installation tested separately from media generation."
+    },
+    {
+      "id": "yairdash-x-video-packaging",
+      "name": "x-video-packaging",
+      "category": "ניהול תהליכים",
+      "description_he": "אריזת סרטון לפוסטים ב־X: סיפור, פתיח חזותי ותהליך יצירה",
+      "kind": "hosted",
+      "path": "skills/x-video-packaging",
+      "source": {
+        "repository": "yairdash/ai-skills",
+        "path": "skills/x-video-packaging",
+        "url": "https://github.com/yairdash/ai-skills/tree/main/skills/x-video-packaging",
+        "revision": null,
+        "status": "maintained-here"
+      },
+      "requirements": [
+        "סרטון שניתן לצפות בו, פרוקסי או תיאור; הפלט הוא טיוטות בלבד"
+      ],
+      "compatibility": {
+        "desktop": "assessed",
+        "web": "untested",
+        "mobile": "untested"
+      },
+      "review_status": "content-reviewed",
+      "reviewed_at": "2026-10-13",
+      "license": "No open-source redistribution license selected; provider terms and third-party rights remain separate",
+      "notes": "Public adaptation; complete included references. Installation tested separately from media generation."
     }
   ]
 }

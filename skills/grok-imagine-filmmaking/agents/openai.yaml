@@ -1,0 +1,9 @@
+interface:
+  display_name: Grok Imagine Filmmaking
+  short_description: Plan and direct Grok Imagine film work
+  default_prompt: Use $grok-imagine-filmmaking to plan and prompt a consistent Grok
+    Imagine scene.
+  icon_small: ./assets/icon.svg
+  icon_large: ./assets/icon.svg
+policy:
+  allow_implicit_invocation: true

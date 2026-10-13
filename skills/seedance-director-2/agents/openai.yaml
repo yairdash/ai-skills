@@ -1,0 +1,9 @@
+interface:
+  display_name: Seedance Director 2.03
+  short_description: Direct Seedance shots, references and cinematic scenes
+  default_prompt: Use $seedance-director-2 to direct my scene with clear reference
+    roles and purposeful camera movement.
+  icon_small: ./assets/icon.svg
+  icon_large: ./assets/icon.svg
+policy:
+  allow_implicit_invocation: true

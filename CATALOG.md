@@ -43,6 +43,10 @@
 | [svg-character-animation](https://github.com/calesthio/OpenMontage/tree/9327439db69021ab4b0e2776729bf3b58fdb5a87/.agents/skills/svg-character-animation) | הנפשת דמויות SVG בתנועות ותזמונים | מקור חיצוני — גרסה מאומתת | GSAP וסביבת דפדפן, Remotion או HyperFrames; משלים character-rigging | סקירת תוכן בלבד |
 | [h3-prompt-writing](https://github.com/MiniMax-AI/MiniMax-H3/tree/fa6891ff7cdaaa03fa4497e89ac64ff169219acf/skills/h3-prompt-writing) | כתיבת פרומפטים רב־מודאליים ל־MiniMax H3 עם תמונות פתיחה, סיום ורפרנסים | מקור חיצוני — גרסה מאומתת | קריאת מדריכי references מהמקור; כתיבת טקסט אינה דורשת API, הפקת וידאו דורשת שירות נפרד | סקירת תוכן בלבד |
 | [develop-h3-parody-shorts](skills/develop-h3-parody-shorts) | מחקר, פיתוח ובדיקת סרטוני H3 עם פרומפטים, אימות נתונים ובקרת תוצאות | במאגר | Python 3 לבדיקות; h3-prompt-writing מהקטלוג; FAL רק בעת הפקה מאושרת | סקירת תוכן בלבד |
+| [seedance-director-2](skills/seedance-director-2) | בימוי סצנות Seedance, משחק, מצלמה, רפרנסים והמשכיות | במאגר | הוראות טקסט; יצירת תמונות רפרנס רק לפי בקשה ובאמצעות כלי זמין; יצירת מדיה לא נבדקה; לפני הרצה יש לבדוק תיעוד וסכמת ספק עדכניים | סקירת תוכן בלבד |
+| [grok-imagine-filmmaking](skills/grok-imagine-filmmaking) | תכנון, כתיבת פרומפטים ואבחון הפקת תמונה ווידאו ב־Grok Imagine | במאגר | גישה ל־Grok נדרשת ליצירה; יכולות הממשק משתנות לפי חשבון; יצירת מדיה לא נבדקה; לפני הרצה יש לבדוק תיעוד וסכמת ספק עדכניים | סקירת תוכן בלבד |
+| [wan-3-filmmaking](skills/wan-3-filmmaking) | תכנון Wan 3, רפרנסים, סטוריבורד, עריכה והארכת קליפים | במאגר | גישה לספק Wan; פרטי API מתייחסים ל־Alibaba Model Studio; יצירת מדיה לא נבדקה; לפני הרצה יש לבדוק תיעוד וסכמת ספק עדכניים | סקירת תוכן בלבד |
+| [fal-seedance-2-5](skills/fal-seedance-2-5) | פרומפטים ובקשות fal ל־Seedance 2.5 עם רפרנסים מסודרים | במאגר | לכתיבה אין צורך במפתח; להרצה נדרשים גישת fal, תשלום והרשאה; יצירת מדיה לא נבדקה; לפני הרצה יש לבדוק תיעוד וסכמת ספק עדכניים | סקירת תוכן בלבד |
 
 ## אודיו
 
@@ -73,3 +77,4 @@
 | [story-init](https://github.com/danjdewhurst/story-skills/tree/9a54e04b210c0adb9ac9807fcc876eda1d27e9f6/skills/story-init) | הקמת פרויקט סיפור עם בייבל, מעקב סצנות וקובצי עולם | מקור חיצוני — גרסה מאומתת | Story CLI או Node והסקיל story-maintenance; גישה לקבצים | סקירת תוכן בלבד |
 | [story-maintenance](https://github.com/danjdewhurst/story-skills/tree/9a54e04b210c0adb9ac9807fcc876eda1d27e9f6/skills/story-maintenance) | בדיקת רציפות, קישורים, אינדקסים וייבוא כתב יד | מקור חיצוני — גרסה מאומתת | Node ו־scripts/story.js; משלים worldbuilding ו־revision-continuity | סקירת תוכן בלבד |
 | [find-skills](https://github.com/bytedance/deer-flow/tree/3f7a076972a927b4256df3e3c18b829186dd1355/skills/public/find-skills) | איתור סקילס והצעת התקנה ממקורות נוספים | מקור חיצוני — גרסה מאומתת | Skills CLI, Bash וסקריפט התקנה; אין לבצע עדכון גורף ללא בקשת משתמש | סקירת תוכן בלבד |
+| [x-video-packaging](skills/x-video-packaging) | אריזת סרטון לפוסטים ב־X: סיפור, פתיח חזותי ותהליך יצירה | במאגר | סרטון שניתן לצפות בו, פרוקסי או תיאור; הפלט הוא טיוטות בלבד | סקירת תוכן בלבד |
