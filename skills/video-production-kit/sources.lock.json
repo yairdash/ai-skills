@@ -1,0 +1,21 @@
+{
+  "herk": {
+    "repo": "nateherkai/herk-edit-kit",
+    "commit": "10511e5af86fc47756ea89803b397422e2d89284",
+    "sha256": "d7974c582441573356db54c33724a133ed586923875c4f65a2669880a7917623",
+    "bundled": "Curated source subset; excludes AIS brand assets, published project media, showcase videos, configuration."
+  },
+  "hyperframes": {
+    "repo": "heygen-com/hyperframes",
+    "commit": "4e6fcdb3a9f310a9c483622d6a4ca5354a63fb22",
+    "sha256": "7d6dc2ffbcf0be8ae4d0fb0a357e3b0b37786af8819fea2fea7aaebfa1ccb21d",
+    "bundled": "Markdown documentation and Apache-2.0 license; entry files renamed REFERENCE.md to avoid active skill discovery."
+  },
+  "remotion-skills": {
+    "repo": "remotion-dev/skills",
+    "commit": "1441a11e95db35443bd76bb318386c0d3ca00053",
+    "sha256": "8c05e2e585b3b1c8062cc9e7ffe5e2432334ba9b2fa33b96c45384921b1dd592",
+    "bundled": false,
+    "reason": "No license file found in snapshot; use official installed plugin or install from upstream separately."
+  }
+}

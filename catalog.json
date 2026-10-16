@@ -1304,6 +1304,38 @@
       "reviewed_at": "2026-10-14",
       "license": "No open-source redistribution license selected; third-party reference rights remain separate",
       "notes": "Version 1.0.0. Original provider-neutral skill. Installation and package integrity tested separately; no image generation or Work/mobile runtime claim."
+    },
+    {
+      "id": "yairdash-video-production-kit",
+      "name": "video-production-kit",
+      "category": "וידאו ואנימציה",
+      "description_he": "ערכת עריכת וידאו ומושן גרפיקס: Herk, FFmpeg, HyperFrames ו־Remotion, עם תמלול, RTL והתקנה ניידת",
+      "kind": "hosted",
+      "path": "skills/video-production-kit",
+      "source": {
+        "repository": "yairdash/ai-skills",
+        "path": "skills/video-production-kit",
+        "url": "https://github.com/yairdash/ai-skills/tree/main/skills/video-production-kit",
+        "revision": null,
+        "status": "maintained-here"
+      },
+      "requirements": [
+        "Node.js 22.13+ או 24+, npm, FFmpeg ו־ffprobe; Chrome Headless Shell לרינדור",
+        "Python 3.10+ לממיר תמלול ולהעתקה; שירותי תמלול ויצירת מדיה מוגדרים בנפרד",
+        "יש להתקין את התיקייה המלאה ולהריץ setup; אין התקנת אופליין מלאה"
+      ],
+      "compatibility": {
+        "desktop": "tested",
+        "web": "untested",
+        "mobile": "untested"
+      },
+      "review_status": "runtime-tested",
+      "reviewed_at": "2026-10-16",
+      "test_evidence": [
+        "skills/video-production-kit/VERIFY.md"
+      ],
+      "license": "Original content: no open-source license selected. Vendored Herk MIT/use-permission and HyperFrames Apache-2.0 remain applicable.",
+      "notes": "Version 1.0.0. Windows x64 smoke tests only; 15 embedded Herk modules and 406 draft cards. No native CapCut/DaVinci export or cloud-runtime claim."
     }
   ]
 }

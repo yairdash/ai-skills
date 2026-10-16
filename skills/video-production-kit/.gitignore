@@ -1,0 +1,5 @@
+runtime/
+local.config.json
+dist/
+qa/
+__pycache__/
